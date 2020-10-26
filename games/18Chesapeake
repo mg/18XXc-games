@@ -9,32 +9,32 @@ bank pool size: 5
 companies:
     name: 'Baltimore & Ohio Railroad'
     shortName: 'B&O'
-    color: 0x0188d1
+    color: #0188d1
 
     name: 'Pennsylvania Railroad'
     shortName: 'PRR'
-    color: 0x237333
+    color: #237333
 
     name: 'Pittsburgh and Lake Erie Railroad'
     shortName: 'PLE'
-    color: 0x000000
+    color: #000000
 
     name: 'Strasburg Rail Road'
     shortName: 'SRR'
-    color: 0xd81e3d
+    color: #d81e3d
 
     name: 'Chesapeake & Ohio Railroad'
     shortName: 'C&O'
-    color: 0xa2dced
+    color: #a2dced
 
     name: 'Lehigh Valley Railroad'
     shortName: 'LV'
-    color: 0xfff500
+    color: #fff500
 
     name: 'Camden & Amboy Railroad'
     shortName: 'C&A'
-    color: 0xf48321
+    color: #f48321
 
     name: 'Norfolk & Western Railway'
     shortName: 'N&W'
-    color: 0x7b352a
+    color: #7b352a
