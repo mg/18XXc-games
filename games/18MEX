@@ -1,16 +1,40 @@
 name: '18MEX'
-revenue stops: 
-max or: 
+revenue stops: [10, 20, 30, 40, 50, 60, ]
+max or: 3
 ownership: 
-stock prices: 
-par values: 
-ownership to float: 
-bank pool size: 
+stock prices: [10, 20, 30, 40, 45, 50, 55, 60, 65, 70, 75, 80, 90, 100, 110, 120 130, 140, 150, 165, 180, 200]
+par values: [60, 70, 74, 80, 90]
+ownership to float: 0.6
+bank pool size: 5
 companies:
-    name: ''
-    shortName: ''
-    color: #
+    name: 'Chihuahua Pacific Railway'
+    shortName: 'Chi'
+    color: #FF0102
 
-    name: ''
-    shortName: ''
-    color: #
+    name: 'Mexican Central Railway'
+    shortName: 'MC'
+    color: #000000
+
+    name: 'National Railways of Mexico'
+    shortName: 'NdM'
+    color: #048004
+
+    name: 'United Railways of Yucatan'
+    shortName: 'UdY'
+    color: #800080
+
+    name: 'Southern Pacific Railroad of Mexico'
+    shortName: 'SPM'
+    color: #4A4A4A
+
+    name: 'Mexican Railway'
+    shortName: 'MEX'
+    color: #808080
+
+    name: 'Texas-Mexican Railway'
+    shortName: 'TM'
+    color: #FFA500
+
+    name: 'Pacific Railroad'
+    shortName: 'PAC'
+    color: #FEFF00     
