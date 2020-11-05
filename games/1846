@@ -1,12 +1,32 @@
 name: '1846: The Race for the Midwest'
-revenue stops: 
-max or: 
-ownership: 
-stock prices: 
-par values: 
-ownership to float: 
-bank pool size: 
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 90]
+max or: 2
+ownership: 0.6
+stock prices: [0, 20, 30, 40, 50, 60, 70, 80, 90, 100, 112, 124, 137, 150, 165, 180, 195, 212, 230, 250, 270, 295, 320, 345, 375, 405, 440, 475, 510, 550]
+par values: [40, 50, 60, 70, 80, 90, 100, 112, 124, 137, 150]
+ownership to float: 0.2
+bank pool size: 5
 companies:
-    name: ''
-    shortName: ''
-    color: 
+    name: 'Pennsylvania'
+    shortName: 'PRR'
+    color: #D1222A
+
+    name: 'Baltimore & Ohio'
+    shortName: 'B&O'
+    color: #035AA9
+
+    name: 'Chesapeake & Ohio'
+    shortName: 'C&O'
+    color: #8ED7F6
+
+    name: 'Grand Trunk'
+    shortName: 'GT'
+    color: #F58020
+
+    name: 'Illinois Central'
+    shortName: 'IC'
+    color: #31763F
+
+    name: 'New York Central'
+    shortName: 'NYC'
+    color: #000000
