@@ -20,7 +20,7 @@ companies:
     shortName: 'CPR'
     color: #C4012B
 
-    name: 'Baltimor & Ohio Railroad'
+    name: 'Baltimore & Ohio Railroad'
     shortName: 'B&O'
     color: #0188d1
 
@@ -32,7 +32,7 @@ companies:
     shortName: 'Erie'
     color: #ffffff
 
-    name: 'New York, New Haven, & Hartford Railroad'
+    name: 'New York, New Haven & Hartford Railroad'
     shortName: 'NNH'
     color: #E76234
 
