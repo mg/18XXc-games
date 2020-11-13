@@ -1,0 +1,42 @@
+name: '18NewEngland'
+revenue stops: 10, 20, 30, 40, 50, 60, 70, 100
+max or: 2
+ownership: 0.1, 0.2, 0.3, 0.4, 0.5, 0.6
+exceptional ownership: NA
+stock prices: 35, 40, 45, 50, 55, 65, 70, 80, 90, 100, 110, 120, 130, 145, 160, 180, 200, 220, 240, 260, 280, 310, 340, 380, 420, 460, 500
+par values: NA
+ownership to float: NA
+bank pool size: 5
+companies:
+    name: 'Boston & Albany Railroad'
+    shortName: 'B&A'
+    color: #cc0000
+
+    name: 'Boston & Maine Railroad'
+    shortName: 'B&M'
+    color: #106b21
+
+    name: 'Canadian National Railway'
+    shortName: 'CNR'
+    color: #ffe700
+
+    name: 'Central Vermont Railway'
+    shortName: 'CVR'
+    color: #6a0dad
+
+    name: 'Delaware & Hudson Railway'
+    shortName: 'D&H'
+    color: #020894
+
+    name: 'New York Central Railroad'
+    shortName: 'NYC'
+    color: #000000
+
+    name: 'New York, New Haven & Hartford Railroad'
+    shortName: 'NNH'
+    color: #fc9303
+
+    name: 'Prvoidence & Worcester Railroad'
+    shortName: 'P&W'
+    color: #663300
+
