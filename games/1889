@@ -36,7 +36,7 @@ companies:
     shortName: 'UR'
     color: #7B352A
 
-train:
+trains:
     name: '2'
     cost: 80
 

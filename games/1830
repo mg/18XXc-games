@@ -40,7 +40,7 @@ companies:
     shortName: 'B&M'
     color: #F3B720
 
-train:
+trains:
     name: '2'
     cost: 80
 
