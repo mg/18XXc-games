@@ -31,3 +31,31 @@ companies:
     name: 'Società Ferroviaria Akragas'
     shortName: 'SFA'
     color: #eea5a7
+train:
+    name: '4H'
+    cost: 100
+
+    name: '6H'
+    cost: 200
+
+    name: '8H'
+    cost: 350
+    rusts: ['4H']
+
+    name: '10H'
+    cost: 550
+    rusts: [''6H]
+    permanent
+
+    name: '12H'
+    cost: 800
+    permanent
+
+    name: '16H'
+    cost: 1100
+    rusts: ['8H']
+    permanent
+
+    name: 'R6H'
+    cost: 350
+    permanent
