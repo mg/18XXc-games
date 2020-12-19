@@ -1,5 +1,8 @@
 name: '1849: The Game of Sicilian Railways'
 revenue stops: 10, 20, 30, 40, 50, 80, 90, 130
+route bonuses:
+    label1: 'CNM'
+    bonus: 20
 max or: 3
 ownership: 0.1, 0.2, 0.3, 0.4, 0.5, 0.6
 exceptional ownership: NA
