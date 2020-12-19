@@ -38,3 +38,27 @@ companies:
     name: 'Norfolk & Western Railway'
     shortName: 'N&W'
     color: #7b352a
+train:
+    name: '2'
+    cost: 80
+
+    name: '3'
+    cost: 180
+
+    name: '4'
+    cost: 200
+    rusts: ['2']
+
+    name: '5'
+    cost: 500
+    permanent
+
+    name: '6'
+    cost: 630
+    rusts: ['3']
+    permanent
+
+    name: 'D'
+    cost: 900
+    rusts: ['4']
+    permanent

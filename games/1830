@@ -39,3 +39,28 @@ companies:
     name: 'Boston & Maine Railroad'
     shortName: 'B&M'
     color: #F3B720
+
+train:
+    name: '2'
+    cost: 80
+
+    name: '3'
+    cost: 180
+
+    name: '4'
+    cost: 300
+    rusts: ['2']
+
+    name: '5'
+    cost: 450
+    permanent
+
+    name: '6'
+    cost: 630
+    rusts: ['3']
+    permanent
+
+    name: 'D'
+    cost: 1100
+    rusts: ['4']
+    permanent
