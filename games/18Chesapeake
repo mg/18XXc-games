@@ -5,7 +5,7 @@ ownership: 0.1, 0.2, 0.3, 0.4, 0.5, 0.6
 stock prices: 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 125, 130, 140, 145, 160, 180, 200, 225, 250, 275, 300, 325, 350, 375
 par values: 70, 80, 95
 ownership to float: 0.6
-bank pool size: 5
+bank pool: 0.5
 companies:
     name: 'Baltimore & Ohio Railroad'
     shortName: 'B&O'
@@ -38,3 +38,15 @@ companies:
     name: 'Norfolk & Western Railway'
     shortName: 'N&W'
     color: #7b352a
+trains:
+    name: '4'
+    cost: 200
+
+    name: '5'
+    cost: 500
+
+    name: '6'
+    cost: 630
+
+    name: 'D'
+    cost: 900
