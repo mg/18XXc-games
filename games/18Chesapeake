@@ -38,3 +38,15 @@ companies:
     name: 'Norfolk & Western Railway'
     shortName: 'N&W'
     color: #7b352a
+trains:
+    name: '4'
+    cost: 200
+
+    name: '5'
+    cost: 500
+
+    name: '6'
+    cost: 630
+
+    name: 'D'
+    cost: 900

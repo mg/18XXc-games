@@ -1,0 +1,66 @@
+name: '1882: Assiniboia'
+revenue stops: 10, 20, 30, 40, 50, 60, 70, 80
+route bonuses:
+    label1: 'HB'
+    label1: 'NA'
+    bonus: 100
+
+    label1: 'HB'
+    label1: 'WC'
+    bonus: 100
+
+    label1: 'FE'
+    label2: '+20'
+    bonus: 20
+
+    label1: 'FE'
+    label2: '+30'
+    bonus: 30
+max or: 3
+ownership: 0.1, 0.2, 0.3, 0.4, 0.5, 0.6
+exceptional ownership: 0.7, 0.8, 0.9, 1
+stock prices:  10, 20, 30, 40, 45, 50, 54, 55, 58, 60, 62, 63, 65, 66, 67, 68, 69, 70, 71, 75, 76, 80, 82, 90, 100, 110, 111, 112, 120, 125, 126, 130, 140, 142, 155, 160, 170, 180, 185, 200, 200, 220, 225, 240, 250, 260, 275, 280, 300, 325, 350
+par values: 67, 71, 76, 82, 90, 100
+ownership to float: 0.6
+bank pool size: 5
+companies:
+    name: 'Canadian Northern Railway'
+    shortName: 'CNR'
+    color: #227332
+
+    name: 'Hudson Bay Railway'
+    shortName: 'HBR'
+    color: #FFD700
+
+    name: 'Canadian Pacific Railway'
+    shortName: 'CPR'
+    color: #D81E3D
+
+    name: 'Grand Trunk Pacific Railway'
+    shortName: 'GT'
+    color: #000000
+
+    name: 'Canadian National Railway'
+    shortName: 'CN'
+    color: #FFA300
+
+    name: 'Qu'Appelle, Long Lake, And Saskatchewan Railway'
+    shortName: 'QLL'
+    color: #800080
+
+    name: 'Saskatchewan Central Railroad'
+    shortName: 'CC'
+    color: #0489D0
+trains:
+    name: '4'
+    cost: 300
+
+    name: '5'
+    cost: 450
+
+    name: '6'
+    cost: 630
+
+    name: 'D'
+    cost: 1100
+
