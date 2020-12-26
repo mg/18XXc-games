@@ -6,7 +6,7 @@ exceptional ownership: 0.7, 0.8, 0.9, 1
 stock prices: 10, 20, 30, 40, 45, 50, 55, 60, 65, 70, 75, 80, 90, 100, 110, 125, 140, 155, 175, 200, 225, 255, 285, 315, 350
 par values: 65, 70, 75, 80, 90, 100
 ownership to float: 0.5
-bank pool size: 5
+bank pool: 0.5
 companies:
     name: 'Awa Railroad'
     shortName: 'AR'
@@ -35,3 +35,16 @@ companies:
     name: 'Uwajima Railway'
     shortName: 'UR'
     color: #7B352A
+
+trains:
+    name: '4'
+    cost: 300
+
+    name: '5'
+    cost: 450
+
+    name: '6'
+    cost: 630
+
+    name: 'D'
+    cost: 1100
