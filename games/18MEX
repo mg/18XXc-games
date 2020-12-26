@@ -40,3 +40,15 @@ companies:
     name: 'Pacific Railroad'
     shortName: 'PAC'
     color: #FEFF00     
+trains:
+    name: '4'
+    cost: 300
+
+    name: '5'
+    cost: 450
+
+    name: '6'
+    cost: 600
+
+    name: '4D'
+    cost: 700
