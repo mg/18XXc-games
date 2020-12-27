@@ -1,12 +1,21 @@
 name: '18NewEngland'
 revenue stops: 10, 20, 30, 40, 50, 60, 70, 100
+route bonuses:
+    label1: 'x 2'
+    multiply: 2
+
+    label1: 'x 3'
+    multiply: 3
+
+disable: float calculator
+partial payout
 max or: 2
 ownership: 0.1, 0.2, 0.3, 0.4, 0.5, 0.6
 exceptional ownership: NA
 stock prices: 35, 40, 45, 50, 55, 65, 70, 80, 90, 100, 110, 120, 130, 145, 160, 180, 200, 220, 240, 260, 280, 310, 340, 380, 420, 460, 500
 par values: NA
 ownership to float: NA
-bank pool size: 5
+bank pool: 0.5
 companies:
     name: 'Boston & Albany Railroad'
     shortName: 'B&A'
@@ -36,7 +45,18 @@ companies:
     shortName: 'NNH'
     color: #fc9303
 
-    name: 'Prvoidence & Worcester Railroad'
+    name: 'Providence & Worcester Railroad'
     shortName: 'P&W'
     color: #663300
+trains:
+    name: '4'
+    cost: 300
 
+    name: '5E'
+    cost: 500
+
+    name: '6E'
+    cost: 600
+
+    name: '8E'
+    cost: 800
