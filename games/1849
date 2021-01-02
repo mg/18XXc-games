@@ -1,4 +1,5 @@
 name: '1849: The Game of Sicilian Railways'
+bggId: '3097'
 revenue stops: 10, 20, 30, 40, 50, 80, 90, 130
 route bonuses:
     label1: 'CNM'
