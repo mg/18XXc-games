@@ -1,4 +1,5 @@
 name: '1882: Assiniboia'
+bggId: '282435'
 revenue stops: 10, 20, 30, 40, 50, 60, 70, 80
 route bonuses:
     label1: 'HB'
