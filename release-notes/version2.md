@@ -11,7 +11,7 @@
 - 18MEX
 - 18NewEngland
 
-# New features
+## New features
 
 - Calculate **partial payout** for the games that require it.
 - Add specific game defined **route bonuses** to route value and add **multiple routes**, calculate payouts for any combination (https://youtu.be/5G_8nn8SSUY).
