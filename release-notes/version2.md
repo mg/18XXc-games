@@ -22,8 +22,6 @@
 ## New functionality
 
 - Share result over other media, eg. _Twitter_, _Facebook_, _email_ (https://youtu.be/k5EJTLiYxHY).
- ![image](https://user-images.githubusercontent.com/1972/113130783-fa813780-920b-11eb-92f7-814b0decae21.png)
-
 - Upload game result straight too _BoardGameGeek.com_ (https://youtu.be/mDzqB2ID7BU).
 
 ## Improved game editor
