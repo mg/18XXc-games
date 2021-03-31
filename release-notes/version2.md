@@ -26,5 +26,5 @@
 
 - Support all new features needed for added games.
 - Expanded range of supported market prices, every price point between _0_ and _999_ is available.
-- Clone an existing game and modify it (https://youtu.be/Cn6H0c-XIEI)
+- Clone an existing game and modify it (https://youtu.be/Cn6H0c-XIEI).
 - Share the game data to have it included in future versions of **18XXc**.
