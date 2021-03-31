@@ -1,4 +1,6 @@
 # 18XXc version 2 release notes
+- iOS: https://apps.apple.com/us/app/18xxc/id1536385450
+- Android: https://play.google.com/store/apps/details?id=mg.app18XXc
 
 ## New games supported
 
