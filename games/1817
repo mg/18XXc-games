@@ -1,14 +1,128 @@
 name: '1817'
 bggId: '63170'
-revenue stops: []
-max or: 
-ownership: 
-exceptional ownership: 
-stock prices: 
-par values: 
-ownership to float: 
-bank pool: 
+revenue stops: [20, 30, 40, 50, 60, 80, 100]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 1]
+stock prices: [40, 45, 50, 60, 65, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200, 220, 245, 270, 300, 330, 360, 400, 440, 490, 540, 600]
+par values: [50, 60, 65, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200]
+ownership to float: 0.2 for 10 share, 0.4 for 5 share, 1 for a 2 share. Always twice the par value.
+bank pool: 0.6
 partial payout: true
 disable:
 companies:
+    name: 'Alton and Southern Railroad'
+    shortName: 'A&S'
+    color: #ffEE3D80
 
+    name: 'Arcade and Attica Railroad'
+    shortName: 'A&A'
+    color: #ff904198
+    
+    name: 'Belt Railway of Chicago'
+    shortName: 'Belt'
+    color: #ffF9D3A6
+    
+    name: 'Bessemer and Lake Erie Railroad'
+    shortName: 'Bess'
+    color: #ff000000
+    
+    name: 'Boston and Albany Railroad'
+    shortName: 'B&A'
+    color: #ffFBA495
+    
+    name: 'Delaware, Lackawanna and Western Railroad'
+    shortName: 'DL&W'
+    color: #ff984573
+    
+    name: 'Elgin, Joliet and Eastern Railway'
+    shortName: 'J'
+    color: #ffDFEDC3
+    
+    name: 'Grand Trunk Western Railroad'
+    shortName: 'GT'
+    color: #ffF2C399
+    
+    name: 'Housatonic Railroad'
+    shortName: 'H'
+    color: #ffDEEFF9
+    
+    name: 'Morristown and Erie Railway'
+    shortName: 'ME'
+    color: #ffFFEFD4
+    
+    name: 'New York, Ontario and Western Railway'
+    shortName: 'NYOW'
+    color: #ff0096D9
+    
+    name: 'New York, Susquehanna and Western Railway'
+    shortName: 'NYSW'
+    color: #ffFFF36B
+    
+    name: 'Pittsburg, Shawmut and Northern Railroad'
+    shortName: 'PSNR'
+    color: #ff94C5A6
+    
+    name: 'Pittsburgh and Lake Erie Railroad'
+    shortName: 'PLE'
+    color: #ff02AEAD
+    
+    name: 'Providence and Worcester Railroad'
+    shortName: 'PW'
+    color: #ffE41E21
+    
+    name: 'Rutland Railroad'
+    shortName: 'R'
+    color: #ff8EAB9A
+    
+    name: 'Starsburg Railroad'
+    shortName: 'SR'
+    color: #ffE41E21
+    
+    name: 'Union Railroad'
+    shortName: 'UR'
+    color: #ff013D83
+    
+    name: 'Warren Trumbull Railroad'
+    shortName: 'WT'
+    color: ff#F6B99A
+    
+    name: 'West Chester Railroad'
+    shortName: 'WC'
+    color: #ffE4E4E4
+    
+route bonuses:
+    label1: 'Brdg'
+    label2: '+10'
+    add: 10
+
+    label1: 'Brdg'
+    label2: '+20'
+    add: 20
+
+    label1: 'Brdg'
+    label2: '+30'
+    add: 30
+
+    label1: 'Coal'
+    label2: '+10'
+    add: 10
+
+    label1: 'Coal'
+    label2: '+20'
+    add: 20
+
+    label1: 'Coal'
+    label2: '+30'
+    add: 30
+
+    label1: 'Coal'
+    label2: '+40'
+    add: 40
+
+    label1: 'Coal'
+    label2: '+50'
+    add: 50
+
+    label1: 'Coal'
+    label2: '+60'
+    add: 60
