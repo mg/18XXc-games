@@ -1,0 +1,241 @@
+Name: '18CZ: The Railway Comes To Czech Lands'
+bggId: 163841
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80]
+max or: 3
+ownership: [0.1, 0.2, 0.25, 0.3, 0.4, 0.5, 0.6, 0.75]
+stock prices: [40, 45, 50, 53, 55, 58, 60, 63, 65, 68, 70, 75, 80, 85, 90, 96, 100, 105, 110, 115, 120, 126, 132, 138, 144, 151, 158, 165, 172, 180, 188, 196, 204, 213, 222, 231, 240, 250, 260, 275, 290, 305, 320, 335, 350, 370]
+par values: [50, 55, 60, 65, 70, 80, 90, 100, 110, 120]
+percent to float: 0.5
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.Custom
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Large'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.6'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Medium'
+	 order: '2'
+	 primary stock: '0.4'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.6'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '2'
+	 name: 'Small'
+	 order: '3'
+	 primary stock: '0.5'
+	 common stock: '0.25'
+	 min ownership: 'null'
+	 max ownership: '0.75'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Bayrische Staatsbahn'
+	 short name: 'By'
+	 color: Color(0xff31639c)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'kk Staatsbahn'
+	 short name: 'kk'
+	 color: Color(0xffd9863a)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Preußische Eisenbahn'
+	 short name: 'Pr'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Sächsische Eisenbahn'
+	 short name: 'Sx'
+	 color: Color(0xffce0018)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Ungarische Staatsbahn'
+	 short name: 'Ug'
+	 color: Color(0xff562f7e)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Aussig-Teplitzer Eisenbahn'
+	 short name: 'ATE'
+	 color: Color(0xffffce00)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Böhmische Nordbahn'
+	 short name: 'BN'
+	 color: Color(0xff918e8c)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Buschtehrader Eisenbahn'
+	 short name: 'BTE'
+	 color: Color(0xffb1d07d)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Kaiser Ferdinands-Nordbahn'
+	 short name: 'KFN'
+	 color: Color(0xff4877f4)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Österreichische Nordwestbahn'
+	 short name: 'NWB'
+	 color: Color(0xffece753)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Böhmische Commercialbahn'
+	 short name: 'BCB'
+	 color: Color(0xfffc9303)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Eisenbahn Karlsbad-Johanngeorgenstadt'
+	 short name: 'EKJ'
+	 color: Color(0xffffffff)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Mährische Westbahn'
+	 short name: 'MW'
+	 color: Color(0xff617c8d)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Ostrau-Friedlander Eisenbahn'
+	 short name: 'OFE'
+	 color: Color(0xffd7bfcb)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Vereinigte Böhmerwaldbahnen'
+	 short name: 'VBW'
+	 color: Color(0xff106b21)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+route bonuses:
+	 label1: 'Home'
+	 label2: '+50'
+	 add: 50
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2'
+	 cost: 70
+	 order: 1
+
+	 name: '2+2'
+	 cost: 80
+	 order: 2
+
+	 name: '3'
+	 cost: 120
+	 order: 3
+
+	 name: '3+3'
+	 cost: 180
+	 order: 4
+
+	 name: '3E'
+	 cost: 250
+	 order: 5
+
+	 name: '4'
+	 cost: 250
+	 order: 6
+
+	 name: '4+4'
+	 cost: 400
+	 order: 7
+
+	 name: '4E'
+	 cost: 350
+	 order: 8
+
+	 name: '5'
+	 cost: 350
+	 order: 9
+
+	 name: '5+5'
+	 cost: 500
+	 order: 10
+
+	 name: '5E'
+	 cost: 700
+	 order: 11
+
+	 name: '6E'
+	 cost: 800
+	 order: 12
+
+	 name: '8E'
+	 cost: 1000
+	 order: 13
+
+assets:
+asset classes:
+	 name: 'Small locals'
+	 worth: 120
+	 max count: 6
+
+	 name: 'Medium locals'
+	 worth: 120
+	 max count: 6
+
+	 name: 'Large locals'
+	 worth: 120
+	 max count: 6
+

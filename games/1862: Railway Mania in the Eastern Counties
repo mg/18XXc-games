@@ -1,0 +1,214 @@
+Name: '1862: Railway Mania in the Eastern Counties'
+bggId: 66837
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 120, 130, 140, 150, 200]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+stock prices: [7, 14, 20, 26, 31, 36, 40, 44, 47, 50, 52, 54, 56, 58, 60, 62, 65, 68, 71, 74, 78, 82, 86, 90, 95, 100, 105, 110, 116, 122, 128, 134, 142, 150, 158, 166, 174, 182, 191, 200, 210, 220, 232, 245, 260, 275, 292, 310, 330, 350, 375, 400, 430, 460, 495, 530, 570, 610, 655, 700, 750, 800, 850, 900, 950, 1000]
+par values: [54, 56, 58, 60, 62, 65, 68, 71, 74, 78, 82, 86, 90, 95, 100, 105, 110, 116, 122, 128, 134, 142, 150, 158, 166, 174, 182, 191, 200]
+percent to float: 0.5
+stocks to float: null
+floating structures: []
+bank pool: 1.0
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Corporation'
+	 order: '1'
+	 primary stock: '0.3'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Ely & Huntingdon'
+	 short name: 'E&H'
+	 color: Color(0xffffff00)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Eastern Counties Railway'
+	 short name: 'ECR'
+	 color: Color(0xff452665)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'East Norfolk Railway'
+	 short name: 'ENR'
+	 color: Color(0xfffce903)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'East Suffolk Railway'
+	 short name: 'ESR'
+	 color: Color(0xff084a23)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Eastern Union Railway'
+	 short name: 'EUR'
+	 color: Color(0xffce0018)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Felixstowe Dock & Railway'
+	 short name: 'FDR'
+	 color: Color(0xffffaa00)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Ipswich & Bury Railway'
+	 short name: 'I&B'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Lynn & Dereham Railway'
+	 short name: 'L&D'
+	 color: Color(0xffff7b00)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Lynn & Ely Railway'
+	 short name: 'L&E'
+	 color: Color(0xffe71837)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Lynn & Hunstanton Railway'
+	 short name: 'L&H'
+	 color: Color(0xff7d95c1)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Norwich & Brandon Railway'
+	 short name: 'N&B'
+	 color: Color(0xffc7c7bf)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Northern & Eastern Railway'
+	 short name: 'N&E'
+	 color: Color(0xffa1a4a3)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Norfolk & Suffolk, Joint Railway'
+	 short name: 'N&S'
+	 color: Color(0xff698bd0)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Newmarket and Great Chesterford Railway'
+	 short name: 'NGC'
+	 color: Color(0xffffff40)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Colchester, Stour Valley, Sudbury & Halstead'
+	 short name: 'SVR'
+	 color: Color(0xff966f39)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Yarmouth & Norwich Railway'
+	 short name: 'Y&N'
+	 color: Color(0xfffc9303)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Wells & Fakenham Railway'
+	 short name: 'W&F'
+	 color: Color(0xffa5d610)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'West Norfolk Railway'
+	 short name: 'WNR'
+	 color: Color(0xffba8b49)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Waveney Valley Railway'
+	 short name: 'WVR'
+	 color: Color(0xff69487c)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Wisbech, St Ives & Cambridge Junction Rwy'
+	 short name: 'WStI'
+	 color: Color(0xff6b4283)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+route bonuses:
+revenue bonuses:
+	 label: 'The George Hudson'
+	 adds: [10]
+
+stock jumps:
+	 jump: '4'
+	 min price active: null
+
+	 jump: '3'
+	 min price active: null
+
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: 'F1-E2-L2'
+	 cost: 100
+	 order: null
+
+	 name: 'F2-E2/3-L2/3'
+	 cost: 200
+	 order: null
+
+	 name: 'F3-E3-L3'
+	 cost: 280
+	 order: null
+
+	 name: 'F5-E4-L4'
+	 cost: 360
+	 order: null
+
+	 name: 'F6-E4/5-L4/5'
+	 cost: 500
+	 order: null
+
+	 name: 'F7-E5-L5'
+	 cost: 600
+	 order: null
+
+	 name: 'F8-E5/6-L5/6'
+	 cost: 700
+	 order: null
+
+	 name: 'F9-E6-L6'
+	 cost: 800
+	 order: null
+
+assets:
+asset classes:

@@ -1,0 +1,138 @@
+Name: '1889: History of Shikoku Railways'
+bggId: 23540
+revenue stops: [10, 20, 30, 40, 60, 80, 100]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [10, 20, 30, 40, 45, 50, 55, 60, 65, 70, 75, 80, 90, 100, 110, 125, 140, 155, 175, 200, 225, 255, 285, 315, 350]
+par values: [65, 70, 75, 80, 90, 100]
+percent to float: 0.5
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Exceptional payouts'
+	 order: '0'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Tosa Kuroshio Railway'
+	 short name: 'KU'
+	 color: Color(0xff0489d0)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Takamatsu & Kotohira Electric Railway'
+	 short name: 'KO'
+	 color: Color(0xffd81e3d)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Tosa Electric Railway'
+	 short name: 'TR'
+	 color: Color(0xff05a993)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Sanuki Railway'
+	 short name: 'SR'
+	 color: Color(0xff77a042)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Iyo Railway'
+	 short name: 'IR'
+	 color: Color(0xfff48220)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Awa Railroad'
+	 short name: 'AR'
+	 color: Color(0xff37383a)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Uwajima Railway'
+	 short name: 'UR'
+	 color: Color(0xff7b352a)
+	 additional ownership: []
+	 corporate structures: []
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2'
+	 cost: 80
+	 order: null
+
+	 name: '3'
+	 cost: 180
+	 order: null
+
+	 name: '4'
+	 cost: 300
+	 order: null
+
+	 name: '5'
+	 cost: 450
+	 order: null
+
+	 name: '6'
+	 cost: 630
+	 order: null
+
+	 name: 'D'
+	 cost: 1100
+	 order: null
+
+assets:
+	 name: 'Takamtsu E-Railroad'
+	 short name: 'TR'
+	 worth: 20
+
+	 name: 'Mitsubishi Ferry'
+	 short name: 'MF'
+	 worth: 30
+
+	 name: 'Ehime Railway'
+	 short name: 'ER'
+	 worth: 40
+
+	 name: 'Sumitomo Mines Railway'
+	 short name: 'SMR'
+	 worth: 50
+
+	 name: 'Dougo Railway'
+	 short name: 'DR'
+	 worth: 60
+
+	 name: 'South Iyo Railway'
+	 short name: 'SIR'
+	 worth: 80
+
+	 name: 'Uno-Takamatsu Ferry'
+	 short name: 'UTF'
+	 worth: 150
+
+asset classes:

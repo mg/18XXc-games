@@ -1,0 +1,291 @@
+Name: '18Ireland'
+bggId: 196217
+revenue stops: [10, 20, 30, 40, 50, 60]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7]
+stock prices: [20, 24, 30, 38, 50, 55, 58, 60, 62, 64, 65, 66, 68, 70, 72, 76, 78, 80, 84, 85, 86, 88, 92, 94, 95, 96, 100, 102, 104, 106, 110, 112, 114, 122, 124, 125, 134, 136, 138, 148, 150, 170, 172, 196, 198, 225, 260]
+par values: [50, 60, 70, 85, 100]
+percent to float: 0.2
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: '10 share'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.7'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'false'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: '5 share'
+	 order: '2'
+	 primary stock: '0.4'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.4'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'false'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Cork, Bandon & South Coast Railway'
+	 short name: 'CBSCR'
+	 color: Color(0xff804000)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Dublin & South Eastern Railway'
+	 short name: 'DSER'
+	 color: Color(0xff111111)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Great Northern Railway (Ireland)'
+	 short name: 'GNRI'
+	 color: Color(0xff81bae7)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Great Southern & Western Railway'
+	 short name: 'GSWR'
+	 color: Color(0xffff0025)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Midland Great Western Railway'
+	 short name: 'MGWR'
+	 color: Color(0xff63b521)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Midland Railway Northern Counties Committee'
+	 short name: 'MRNCC'
+	 color: Color(0xffca5262)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Waterford, Limerick & Western Railway'
+	 short name: 'MLWR'
+	 color: Color(0xffffff00)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Cork, Blackrock & Passage Railway'
+	 short name: 'CBPR'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Central Ireland Railway'
+	 short name: 'CIR'
+	 color: Color(0xff4a5d0a)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Dublin & Drogheda Railway'
+	 short name: 'DDR'
+	 color: Color(0xffa5ca2b)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Dundalk & Enniskillen Railway'
+	 short name: 'DER'
+	 color: Color(0xffffcecb)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Dublin & Kingstown Railway'
+	 short name: 'DKR'
+	 color: Color(0xff7f0e7e)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Enniskillen, Bundoran & Sligo Railway'
+	 short name: 'EBSR'
+	 color: Color(0xffc0c061)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Grand Junction Railway'
+	 short name: 'GJR'
+	 color: Color(0xffffffff)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Great Northern & Western Railway'
+	 short name: 'GNWR'
+	 color: Color(0xff706498)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Kilkenny Junction Railway'
+	 short name: 'KJR'
+	 color: Color(0xff9d7469)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Londonderry & Enniskillen Railway'
+	 short name: 'LER'
+	 color: Color(0xff7e5945)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Sligo, Leitrim & Northern Counties Railway'
+	 short name: 'SLNCR'
+	 color: Color(0xffa1a4a3)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Ulster Railway'
+	 short name: 'UR'
+	 color: Color(0xfffc9303)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Waterford & Limerick Railway'
+	 short name: 'WLR'
+	 color: Color(0xffff9c40)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Waterford & Kilkenny Railway'
+	 short name: 'WKR'
+	 color: Color(0xff8bb9dd)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+route bonuses:
+	 label1: 'Port'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Galway'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: '1Hr'
+	 cost: 40
+	 order: 1
+
+	 name: '2H'
+	 cost: 80
+	 order: 2
+
+	 name: '2Hr'
+	 cost: 90
+	 order: 3
+
+	 name: '4H'
+	 cost: 180
+	 order: 4
+
+	 name: '3Hr'
+	 cost: 150
+	 order: 5
+
+	 name: '6H'
+	 cost: 300
+	 order: 6
+
+	 name: '8H'
+	 cost: 440
+	 order: 7
+
+	 name: '10H'
+	 cost: 550
+	 order: 8
+
+	 name: 'D'
+	 cost: 770
+	 order: 9
+
+assets:
+	 name: 'Dalkey Atmospheric Railway'
+	 short name: 'P1'
+	 worth: 20
+
+	 name: 'Donegal Railway'
+	 short name: 'P2'
+	 worth: 30
+
+	 name: 'Board of Works'
+	 short name: 'P3'
+	 worth: 40
+
+	 name: 'City of Dublin Steam Packet Company'
+	 short name: 'P4'
+	 worth: 45
+
+	 name: 'Tralee and Dingle Railway'
+	 short name: 'P5'
+	 worth: 50
+
+	 name: 'Drumglass Colliery Railway'
+	 short name: 'P6'
+	 worth: 60
+
+	 name: 'Trans-Atlantic Steam Packet Station'
+	 short name: 'P7'
+	 worth: 75
+
+	 name: 'River Shannon Shipping Company'
+	 short name: 'P8'
+	 worth: 80
+
+	 name: 'William Dargan Esq'
+	 short name: 'P9'
+	 worth: 90
+
+	 name: 'The Irish Mail'
+	 short name: 'P10'
+	 worth: 110
+
+	 name: 'Dublin and Kingstown Railway'
+	 short name: 'P11'
+	 worth: 120
+
+asset classes:

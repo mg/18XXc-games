@@ -1,0 +1,249 @@
+Name: '1846: The Race for the Midwest'
+bggId: 17405
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 90]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [20, 30, 40, 50, 60, 70, 80, 90, 100, 112, 124, 137, 150, 165, 180, 195, 212, 230, 250, 270, 295, 320, 345, 375, 405, 440, 475, 510, 550]
+par values: [40, 50, 60, 70, 80, 90, 100, 112, 124, 137, 150]
+percent to float: 0.2
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+companies:
+	 name: 'Pennsylvania Railroad'
+	 short name: 'PRR'
+	 color: Color(0xffd1222a)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Baltimore & Ohio Railroad'
+	 short name: 'B&O'
+	 color: Color(0xff035aa9)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Chesapeake & Ohio Railroad'
+	 short name: 'C&O'
+	 color: Color(0xff8ed7f6)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Erie Railroad'
+	 short name: 'ERIE'
+	 color: Color(0xffffe600)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Grand Trunk Railway'
+	 short name: 'GT'
+	 color: Color(0xfff58020)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Illinois Central Railroad'
+	 short name: 'IC'
+	 color: Color(0xff31763f)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'New York Central Railroad'
+	 short name: 'NYC'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: []
+
+route bonuses:
+	 label1: 'E+50'
+	 label2: 'W+20'
+	 add: 70
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'E+50'
+	 label2: 'W+30'
+	 add: 80
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'E+20'
+	 label2: 'W+20'
+	 add: 40
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'E+20'
+	 label2: 'W+30'
+	 add: 50
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Mail'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Mail'
+	 label2: '+30'
+	 add: 30
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Mail'
+	 label2: '+40'
+	 add: 40
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Mail'
+	 label2: '+50'
+	 add: 50
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Mail'
+	 label2: '+60'
+	 add: 60
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Mail'
+	 label2: '+70'
+	 add: 70
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Mail'
+	 label2: '+80'
+	 add: 80
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Meat'
+	 label2: 'null'
+	 add: 30
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Steam'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Steam'
+	 label2: '+40'
+	 add: 40
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+	 jump: '3'
+	 min price active: 165
+
+	 jump: '2'
+	 min price active: 165
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+	 jump: '-1'
+	 min price active: null
+
+trains:
+	 name: '2'
+	 cost: 80
+	 order: null
+
+	 name: '3/5'
+	 cost: 160
+	 order: null
+
+	 name: '4'
+	 cost: 180
+	 order: null
+
+	 name: '4/6'
+	 cost: 450
+	 order: null
+
+	 name: '5'
+	 cost: 500
+	 order: null
+
+	 name: '6'
+	 cost: 800
+	 order: null
+
+	 name: '7/8'
+	 cost: 900
+	 order: null
+
+assets:
+	 name: 'Lake Shore Line'
+	 short name: 'LS'
+	 worth: 40
+
+	 name: 'Michigan Central'
+	 short name: 'MC'
+	 worth: 40
+
+	 name: 'Ohio & Indiana'
+	 short name: 'O&I'
+	 worth: 40
+
+	 name: 'Steamboat Co.'
+	 short name: 'SC'
+	 worth: 40
+
+	 name: 'Meat Packing Co.'
+	 short name: 'MP'
+	 worth: 60
+
+	 name: 'Tunnel Blasting Co.'
+	 short name: 'TB'
+	 worth: 60
+
+	 name: 'Chicago & Western Indiana'
+	 short name: 'C&WI'
+	 worth: 60
+
+	 name: 'Mail Contract'
+	 short name: 'MAIL'
+	 worth: 60
+
+	 name: 'Big 4'
+	 short name: 'B4'
+	 worth: 40
+
+	 name: 'Michigan So.'
+	 short name: 'MS'
+	 worth: 60
+
+asset classes:

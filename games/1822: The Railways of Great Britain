@@ -1,0 +1,354 @@
+Name: '1822: The Railways of Great Britain'
+bggId: 193867
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 120, 140, 160]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200, 220, 245, 270, 300, 330, 360, 400, 450, 500, 550, 600, 650, 700]
+par values: [50, 60, 70, 80, 90, 100]
+percent to float: null
+stocks to float: null
+floating structures: [0, , 1, ]
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.Custom
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+	 id: '2'
+	 name: 'Major'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '3'
+	 name: 'Minor'
+	 order: '2'
+	 primary stock: '0.5'
+	 common stock: '0.25'
+	 min ownership: '0.5'
+	 max ownership: '0.5'
+	 max ownership all: '0.5'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.0'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '0'
+	 name: '50% float'
+	 order: '3'
+	 primary stock: 'null'
+	 common stock: 'null'
+	 min ownership: 'null'
+	 max ownership: 'null'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: '20% float'
+	 order: '4'
+	 primary stock: 'null'
+	 common stock: 'null'
+	 min ownership: 'null'
+	 max ownership: 'null'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.2'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Caledonian Railway'
+	 short name: 'CR'
+	 color: Color(0xff2462a9)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Great Western Railway'
+	 short name: 'GWR'
+	 color: Color(0xff05761a)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Lancashire and Yorkshire Railway'
+	 short name: 'L&YR'
+	 color: Color(0xff510951)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'London, Brighton and South Coast Railway'
+	 short name: 'LBSCR'
+	 color: Color(0xfffce903)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'London and North Western Railway'
+	 short name: 'LNWR'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Midland Railway'
+	 short name: 'MR'
+	 color: Color(0xffb9132c)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'North British Railway'
+	 short name: 'NBR'
+	 color: Color(0xff5c330a)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'North Eastern Railway'
+	 short name: 'NER'
+	 color: Color(0xff63b521)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'South Eastern and Chatham Railway'
+	 short name: 'SECR'
+	 color: Color(0xfffc9303)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'South Wales Railway'
+	 short name: 'SWR'
+	 color: Color(0xff909090)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Great North of Scotland Railway'
+	 short name: 'M1'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Lanarkshire and Dunbartonshire Railway'
+	 short name: 'M2'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Edinburgh and Dalkeith Railway'
+	 short name: 'M3'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Newcastle and North Shields Railway'
+	 short name: 'M4'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Stockton and Darlington Railway'
+	 short name: 'M5'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Furness Railway'
+	 short name: 'M6'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Warrington and Newton Railway'
+	 short name: 'M7'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Manchester, Sheffield and Lincolnshire Railway'
+	 short name: 'M8'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'East Lincolnshire Railway'
+	 short name: 'M9'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Grand Junction Railway'
+	 short name: 'M10'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Great Northern Railway'
+	 short name: 'M11'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Eastern Union Railway'
+	 short name: 'M12'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Headcorn and Maidstone Junction Light Railway'
+	 short name: 'M13'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Metropolitan Railway'
+	 short name: 'M14'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'London, Tilbury and Southend Railway'
+	 short name: 'M15'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'London and Birmingham Railway'
+	 short name: 'M16'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'London and Southampton Railway'
+	 short name: 'M17'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Somerset and Dorset Joint Railway'
+	 short name: 'M18'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Penarth Harbour and Dock Railway'
+	 short name: 'M19'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Monmouthshire Railway and Canal Company'
+	 short name: 'M20'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Taff Vale Railway'
+	 short name: 'M21'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Exter and Crediton Railway'
+	 short name: 'M22'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'West Cornwall Railway'
+	 short name: 'M23'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Swansea and Mumbles Railway'
+	 short name: 'M24'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+route bonuses:
+	 label1: 'E'
+	 label2: 'null'
+	 add: null
+	 multiply: 2
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: 'L'
+	 cost: 60
+	 order: 1
+
+	 name: '2'
+	 cost: 120
+	 order: 2
+
+	 name: '3'
+	 cost: 200
+	 order: 3
+
+	 name: '4'
+	 cost: 300
+	 order: 4
+
+	 name: '5'
+	 cost: 500
+	 order: 5
+
+	 name: '6'
+	 cost: 600
+	 order: 6
+
+	 name: '7'
+	 cost: 750
+	 order: 7
+
+	 name: 'E'
+	 cost: 1000
+	 order: 8
+
+assets:
+asset classes:
+	 name: 'Concession'
+	 worth: 100
+	 max count: 10
+

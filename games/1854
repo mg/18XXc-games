@@ -1,0 +1,210 @@
+Name: '1854'
+bggId: 183308
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 90]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+stock prices: [54, 56, 57, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 89, 91, 93, 95, 97, 99, 100, 101, 102, 104, 106, 108, 110, 112, 115, 117, 119, 123, 125, 127, 134, 136, 143, 146, 153, 158, 165, 170, 180, 185, 200, 210, 230, 250, 275, 300]
+par values: [67, 72, 77, 82, 87, 93]
+percent to float: null
+stocks to float: null
+floating structures: [0, , 1, ]
+bank pool: 0.6
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+	 id: '2'
+	 name: '10 share'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.6'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '0'
+	 name: '5 share'
+	 order: '2'
+	 primary stock: '0.4'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '2.0'
+	 max stock price: '93'
+	 max bank pool: '0.6'
+	 percent to float: '0.6'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: '0.5'
+	 id: '3'
+	 name: 'Local'
+	 order: '3'
+	 primary stock: 'null'
+	 common stock: '0.5'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Sans option'
+	 order: '4'
+	 primary stock: '0.4'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: 'null'
+	 max ownership all: '1.0'
+	 share/stock ratio: '2.0'
+	 max stock price: 'null'
+	 max bank pool: '0.4'
+	 percent to float: '0.6'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Kaiser Franz Joseph-Bahn'
+	 short name: 'FJ'
+	 color: Color(0xffb6996f)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Kaiserin Elisabeth-Westbahn'
+	 short name: 'KE'
+	 color: Color(0xffffaaaa)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Kronprinz Rudolpf-Bahn'
+	 short name: 'KR'
+	 color: Color(0xff63b521)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Kärntner Bahn'
+	 short name: 'KT'
+	 color: Color(0xffeeefea)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Nordtiroler Staatsbahn'
+	 short name: 'NT'
+	 color: Color(0xff81bae7)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Salzburger Bahn'
+	 short name: 'SB'
+	 color: Color(0xffce0018)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Südbahn'
+	 short name: 'SD'
+	 color: Color(0xffffaa00)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Vorarlberger Bahn'
+	 short name: 'VB'
+	 color: Color(0xffe6ef96)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Lokalbahn AG'
+	 short name: 'A'
+	 color: Color(0xffcac8c4)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Lokalbahn AG'
+	 short name: 'B'
+	 color: Color(0xffcac8c4)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Lokalbahn AG'
+	 short name: 'C'
+	 color: Color(0xffcac8c4)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+route bonuses:
+	 label1: 'Graz'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Toll'
+	 label2: '-10'
+	 add: -10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2 refurb'
+	 cost: 130
+	 order: 1
+
+	 name: '3 refurb'
+	 cost: 230
+	 order: 2
+
+	 name: '4'
+	 cost: 320
+	 order: 3
+
+	 name: '4 refurb'
+	 cost: 350
+	 order: 4
+
+	 name: '5'
+	 cost: 530
+	 order: 5
+
+	 name: '6'
+	 cost: 670
+	 order: 6
+
+	 name: '8'
+	 cost: 900
+	 order: 7
+
+	 name: '8 OE'
+	 cost: 1200
+	 order: 8
+
+assets:
+asset classes:

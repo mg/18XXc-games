@@ -1,0 +1,310 @@
+Name: '1867: The Railways of Canada'
+bggId: 184524
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 100]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200, 220, 245, 270, 300, 330, 360, 400, 440, 490, 540]
+par values: [70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200]
+percent to float: 0.2
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: 45
+max loans: 5
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Major'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Minor'
+	 order: '2'
+	 primary stock: '0.5'
+	 common stock: '0.5'
+	 min ownership: '1.0'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.0'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Chesapeake & Ohio Railway'
+	 short name: 'C&O'
+	 color: Color(0xff4f1e8a)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Canadian Pacific Railway'
+	 short name: 'CPR'
+	 color: Color(0xff960e16)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Grand Trunk Railway'
+	 short name: 'GT'
+	 color: Color(0xffd44211)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Great Western Railway'
+	 short name: 'GWR'
+	 color: Color(0xff420d17)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Intercontinental Railway'
+	 short name: 'IR'
+	 color: Color(0xffa0961f)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Canadian Northern Railway'
+	 short name: 'NR'
+	 color: Color(0xff245527)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'National Transcontinental Railway'
+	 short name: 'NTR'
+	 color: Color(0xffb8916b)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'New York Central Railway'
+	 short name: 'NYC'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Algoma Eastern'
+	 short name: 'AE'
+	 color: Color(0xfff95819)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Brockville & Ottawa'
+	 short name: 'BO'
+	 color: Color(0xff2b898c)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Buffalo, Brantford, & Goderich'
+	 short name: 'BBG'
+	 color: Color(0xff73808d)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Canadian Atlantic'
+	 short name: 'CA'
+	 color: Color(0xff650065)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Canada Southern'
+	 short name: 'CS'
+	 color: Color(0xff8bb9dd)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Credit Valley'
+	 short name: 'CV'
+	 color: Color(0xff5397cd)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Kingston & Pembroke'
+	 short name: 'KP'
+	 color: Color(0xff2555d9)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'London & Port Stanley'
+	 short name: 'LPS'
+	 color: Color(0xffdbdad6)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Ottawa & Prescott'
+	 short name: 'OP'
+	 color: Color(0xffc53e56)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Pere Marquette'
+	 short name: 'PM'
+	 color: Color(0xff42a0a3)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Quebec & Lake St. John'
+	 short name: 'QLS'
+	 color: Color(0xff485074)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'New York & Ottawa'
+	 short name: 'NO'
+	 color: Color(0xffdc3023)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Toronto, Hamilton, & Buffalo'
+	 short name: 'THB'
+	 color: Color(0xffe35c38)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Toronto, Grey, & Bruce'
+	 short name: 'TGB'
+	 color: Color(0xff174036)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Toronto & Nipissing'
+	 short name: 'TN'
+	 color: Color(0xffa21716)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'St. Lawrence & Atlantic'
+	 short name: 'SLA'
+	 color: Color(0xff4e545d)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+route bonuses:
+	 label1: 'Buff'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Mont'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Queb'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Detr'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Timm'
+	 label2: '+40'
+	 add: 40
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'x 2'
+	 label2: 'null'
+	 add: null
+	 multiply: 2
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: '2'
+	 cost: 100
+	 order: null
+
+	 name: '3'
+	 cost: 225
+	 order: null
+
+	 name: '4'
+	 cost: 350
+	 order: null
+
+	 name: '5'
+	 cost: 550
+	 order: null
+
+	 name: '6'
+	 cost: 650
+	 order: null
+
+	 name: '7'
+	 cost: 800
+	 order: null
+
+	 name: '8'
+	 cost: 1000
+	 order: null
+
+	 name: '5+5E'
+	 cost: 1500
+	 order: null
+
+	 name: '2+2'
+	 cost: 600
+	 order: null
+
+assets:
+	 name: 'Champlain & St. Lawrence'
+	 short name: 'C&SL'
+	 worth: 30
+
+	 name: 'Niagara Falls Bridge'
+	 short name: 'NFB'
+	 worth: 45
+
+	 name: 'Montreal Bridge'
+	 short name: 'MB'
+	 worth: 60
+
+	 name: 'Quebec Bridge'
+	 short name: 'QB'
+	 worth: 75
+
+	 name: 'St. Clair Tunnel'
+	 short name: 'SCT'
+	 worth: 90
+
+asset classes:

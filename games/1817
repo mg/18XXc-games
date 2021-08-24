@@ -1,0 +1,304 @@
+Name: '1817'
+bggId: 63170
+revenue stops: [20, 30, 40, 50, 60, 80, 100]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 1.0]
+stock prices: [40, 45, 50, 60, 65, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200, 220, 245, 270, 300, 330, 360, 400, 440, 490, 540, 600]
+par values: [50, 60, 65, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200]
+percent to float: null
+stocks to float: 2
+floating structures: []
+bank pool: 0.6
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: [DisableCalculator.EmergencyTrainPurchase]
+corporate structures:
+	 id: '0'
+	 name: '10 share'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.8'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: '1.0'
+	 option price: 'null'
+	 id: '1'
+	 name: '5 share'
+	 order: '2'
+	 primary stock: '0.4'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.6'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: '1.0'
+	 option price: 'null'
+	 id: '2'
+	 name: '2 share'
+	 order: '3'
+	 primary stock: '0.5'
+	 common stock: '0.5'
+	 min ownership: '1.0'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Arcade and Attica Railroad'
+	 short name: 'A&A'
+	 color: Color(0xffcca978)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Alton and Southern Railroad'
+	 short name: 'A&S'
+	 color: Color(0xff940008)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Boston and Albany Railroad'
+	 short name: 'B&A'
+	 color: Color(0xffe71837)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Belt Railway of Chicago'
+	 short name: 'Belt'
+	 color: Color(0xffd9863a)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Bessemer and Lake Erie Railroad'
+	 short name: 'Bess'
+	 color: Color(0xff262510)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Delaware, Lackawanna and Western Railroad'
+	 short name: 'DL&W'
+	 color: Color(0xff654737)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Elgin, Joliet and Eastern Railway'
+	 short name: 'J'
+	 color: Color(0xff575f48)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Grand Trunk Western Railroad'
+	 short name: 'GT'
+	 color: Color(0xff954651)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Housatonic Railroad'
+	 short name: 'H'
+	 color: Color(0xffc3e4e8)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Morristown and Erie Railway'
+	 short name: 'ME'
+	 color: Color(0xffc7a45c)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'New York, Ontario and Western Railway'
+	 short name: 'NYOW'
+	 color: Color(0xfffef6c5)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'New York, Susquehanna and Western Railway'
+	 short name: 'NYSW'
+	 color: Color(0xffffaa00)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Pittsburgh and Lake Erie Railroad'
+	 short name: 'PLE'
+	 color: Color(0xffb7df89)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Pittsburg, Shawmut and Northern Railroad'
+	 short name: 'PSNR'
+	 color: Color(0xff148529)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Providence and Worcester Railroad'
+	 short name: 'PW'
+	 color: Color(0xffb6996f)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Rutland Railroad'
+	 short name: 'R'
+	 color: Color(0xff1b4125)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Strasburg Railroad'
+	 short name: 'SR'
+	 color: Color(0xffcc0000)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Union Railroad'
+	 short name: 'UR'
+	 color: Color(0xff6a74b7)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'West Chester Railroad'
+	 short name: 'WC'
+	 color: Color(0xff8b352d)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Warren Trumbull Railroad'
+	 short name: 'WT'
+	 color: Color(0xffd9863a)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+route bonuses:
+	 label1: 'Brdg'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Brdg'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Brdg'
+	 label2: '+30'
+	 add: 30
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Coal'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Coal'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Coal'
+	 label2: '+30'
+	 add: 30
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Coal'
+	 label2: '+40'
+	 add: 40
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Coal'
+	 label2: '+50'
+	 add: 50
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Coal'
+	 label2: '+60'
+	 add: 60
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: '2'
+	 cost: 100
+	 order: 1
+
+	 name: '2+'
+	 cost: 100
+	 order: 2
+
+	 name: '3'
+	 cost: 250
+	 order: 3
+
+	 name: '4'
+	 cost: 400
+	 order: 4
+
+	 name: '5'
+	 cost: 600
+	 order: 5
+
+	 name: '6'
+	 cost: 750
+	 order: 6
+
+	 name: '7'
+	 cost: 900
+	 order: 7
+
+	 name: '8'
+	 cost: 1100
+	 order: 8
+
+assets:
+asset classes:
