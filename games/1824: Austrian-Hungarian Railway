@@ -1,0 +1,158 @@
+Name: '1824: Austrian-Hungarian Railway'
+bggId: 277030
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [40, 50, 60, 70, 80, 90, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 170, 180, 190, 200, 210, 215, 220, 225, 235, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350]
+par values: [60, 70, 80, 90, 100, 120]
+percent to float: null
+stocks to float: null
+floating structures: [0, , 1, ]
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.Custom
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Major'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'With coal'
+	 order: '2'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: 'null'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.3'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Bosnisch-Herzegowinische Landesbahn'
+	 short name: 'BH'
+	 color: Color(0xffe71837)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Böhmische Kommerzbahn'
+	 short name: 'BK'
+	 color: Color(0xff6399ce)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Carl Ludwigs-Bahn'
+	 short name: 'CK'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Mährisch-Schlesische Eisenbahn'
+	 short name: 'MS'
+	 color: Color(0xffe5e619)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Siebenbürgische Bahn'
+	 short name: 'SB'
+	 color: Color(0xff006729)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'k&k Staatsbahn'
+	 short name: 'KK'
+	 color: Color(0xffcca978)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Südbahn'
+	 short name: 'SD'
+	 color: Color(0xfffc9303)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Ungarische Staatsbahn'
+	 short name: 'UG'
+	 color: Color(0xff650065)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2'
+	 cost: 80
+	 order: 1
+
+	 name: '1g'
+	 cost: 120
+	 order: 2
+
+	 name: '3'
+	 cost: 180
+	 order: 3
+
+	 name: '2g'
+	 cost: 240
+	 order: 4
+
+	 name: '4'
+	 cost: 280
+	 order: 5
+
+	 name: '3g'
+	 cost: 360
+	 order: 6
+
+	 name: '5'
+	 cost: 400
+	 order: 7
+
+	 name: '4g'
+	 cost: 600
+	 order: 8
+
+	 name: '6'
+	 cost: 600
+	 order: 9
+
+	 name: '5g'
+	 cost: 800
+	 order: 10
+
+	 name: '8'
+	 cost: 800
+	 order: 11
+
+	 name: '10'
+	 cost: 1000
+	 order: 12
+
+assets:
+asset classes:

@@ -1,0 +1,367 @@
+Name: '1822MX'
+bggId: 277538
+revenue stops: [10, 20, 30, 40, 50, 60, 80, 100]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200, 245, 270, 300, 330, 360, 400, 450, 500, 550, 600]
+par values: [50, 60, 70, 80, 90, 100]
+percent to float: null
+stocks to float: null
+floating structures: [0, , 1, ]
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.Custom
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+	 id: '2'
+	 name: 'Major'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '3'
+	 name: 'Minor'
+	 order: '2'
+	 primary stock: '0.5'
+	 common stock: '0.25'
+	 min ownership: '0.5'
+	 max ownership: '0.5'
+	 max ownership all: '0.5'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.0'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '4'
+	 name: 'National'
+	 order: '3'
+	 primary stock: '0.1'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '2.7'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.6'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '0'
+	 name: '50% float'
+	 order: '4'
+	 primary stock: 'null'
+	 common stock: 'null'
+	 min ownership: 'null'
+	 max ownership: 'null'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: '20% float'
+	 order: '5'
+	 primary stock: 'null'
+	 common stock: 'null'
+	 min ownership: 'null'
+	 max ownership: 'null'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.2'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Chihuahua-Pacific Railway'
+	 short name: 'CHP'
+	 color: Color(0xffff9999)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Ferrocarril Mexicano'
+	 short name: 'FCM'
+	 color: Color(0xffe60000)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Ferrocarril del Pacifico'
+	 short name: 'FCP'
+	 color: Color(0xffffe700)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Ferrocarriles Nacionales de México'
+	 short name: 'FNM'
+	 color: Color(0xff660066)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Interoceanic Railway of Mexico'
+	 short name: 'IRM'
+	 color: Color(0xff6e99c3)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Mexican Central Railway'
+	 short name: 'MC'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Mexican International Railroad'
+	 short name: 'MIR'
+	 color: Color(0xfff09331)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Ferrocarril Sonora-Baja California'
+	 short name: 'M1'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Rio Grande, Sierra Madre & Pacific Railway'
+	 short name: 'M2'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril Nacozari'
+	 short name: 'M3'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril Parral y Durango'
+	 short name: 'M4'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril Coahulia y Zacatecas'
+	 short name: 'M5'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Sianola and Durango Railroad'
+	 short name: 'M6'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Monterrey Mineral and Terminal Railway'
+	 short name: 'M7'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril Nacional de la Baja California'
+	 short name: 'M8'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Southern Pacific Railroad of Mexico'
+	 short name: 'M9'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Potosi Central Railroad'
+	 short name: 'M10'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Guadalajara to Tepic and Mazatlán'
+	 short name: 'M11'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril Guanajuato a San Luis de la Paz y Pozos'
+	 short name: 'M12'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril San Marcos a Huajapan de Leon'
+	 short name: 'M13'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril Cazadero y Solis'
+	 short name: 'M14'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril San Gregorio'
+	 short name: 'M15'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril Atlamaxac'
+	 short name: 'M16'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Compania del ferrocarril de Mexico a Puebla'
+	 short name: 'M17'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril Mexicano'
+	 short name: 'M18'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Córdoba and Huatusco Railroad'
+	 short name: 'M19'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril Interoceanico de Acapulco'
+	 short name: 'M20'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril Oaxaca a Ejutla'
+	 short name: 'M21'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarriles Unidos de Yucatán'
+	 short name: 'M22'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarril Merida a Valladolid'
+	 short name: 'M23'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Northern Railroad of Guatemala'
+	 short name: 'M24'
+	 color: Color(0xff999999)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ferrocarriles Nacionales de México'
+	 short name: 'NdM'
+	 color: Color(0xff4f911a)
+	 additional ownership: []
+	 corporate structures: [4, ]
+
+route bonuses:
+	 label1: 'E'
+	 label2: 'null'
+	 add: null
+	 multiply: 2
+	 divide: null
+	 add per stop: null
+
+	 label1: '3/2'
+	 label2: 'null'
+	 add: null
+	 multiply: null
+	 divide: 2
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: 'L'
+	 cost: 60
+	 order: 1
+
+	 name: '2'
+	 cost: 120
+	 order: 2
+
+	 name: '3'
+	 cost: 200
+	 order: 3
+
+	 name: '4'
+	 cost: 300
+	 order: 4
+
+	 name: '5'
+	 cost: 500
+	 order: 5
+
+	 name: '6'
+	 cost: 600
+	 order: 6
+
+	 name: '7'
+	 cost: 750
+	 order: 7
+
+	 name: 'E'
+	 cost: 1000
+	 order: 8
+
+assets:
+asset classes:
+	 name: 'Concession'
+	 worth: 100
+	 max count: 10
+

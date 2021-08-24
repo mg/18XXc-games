@@ -1,0 +1,296 @@
+Name: '1840: Vienna Tramways'
+bggId: 300127
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [60, 65, 70, 75, 80, 81, 85, 90, 91, 95, 98, 100, 101, 105, 106, 108, 110, 111, 115, 116, 118, 121, 125, 126, 128, 135, 136, 137, 145, 147, 155, 157, 160, 167, 170, 175, 180, 185, 190, 195, 200, 210, 220, 230, 240, 250, 265, 275, 290, 300, 320, 330, 350, 360, 380, 400]
+par values: []
+percent to float: null
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.Fixed
+player fixed loan liability: 200
+player max fixed loans: 10
+payout: PayoutOption.Custom
+disable: [DisableCalculator.Float]
+corporate structures:
+	 id: '0'
+	 name: 'Tram'
+	 order: '1'
+	 primary stock: '0.5'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Stadtbahn'
+	 order: '2'
+	 primary stock: 'null'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.6'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Bau- und Betriebscesellschaft für städtische Straßenbahnen in Wien'
+	 short name: 'BBG'
+	 color: Color(0xfffce903)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Dampftramway Krauss & Comp.'
+	 short name: 'DT K&C'
+	 color: Color(0xff5a005a)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Gemeinde Wien - Städtische Straßenbahnen'
+	 short name: 'GWStStB'
+	 color: Color(0xffce0018)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Schaeck-Jaquet & Comp.'
+	 short name: 'SJE'
+	 color: Color(0xff27357e)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Wien-Kagraner Bahn'
+	 short name: 'WKB'
+	 color: Color(0xff1b8948)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Wiener Tramway Gesellshaft'
+	 short name: 'WT'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Donaukanal Linie'
+	 short name: 'D'
+	 color: Color(0xffffce00)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Gürtel Linie'
+	 short name: 'G'
+	 color: Color(0xffe38f1c)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Vorotoe Linie'
+	 short name: 'V'
+	 color: Color(0xfff1dab8)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Wiental Linie'
+	 short name: 'W'
+	 color: Color(0xff654737)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+route bonuses:
+	 label1: 'CR4'
+	 label2: 'x2'
+	 add: null
+	 multiply: 2
+	 divide: null
+	 add per stop: null
+
+	 label1: 'CR5'
+	 label2: 'x3'
+	 add: null
+	 multiply: 3
+	 divide: null
+	 add per stop: null
+
+	 label1: 'CR6'
+	 label2: 'x10'
+	 add: null
+	 multiply: 10
+	 divide: null
+	 add per stop: null
+
+	 label1: 'P'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'KK'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'SB'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'H'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'SD'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'SS'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Cost'
+	 label2: '-50'
+	 add: -50
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Cost'
+	 label2: '-100'
+	 add: -100
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Cost'
+	 label2: '-200'
+	 add: -200
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Cost'
+	 label2: '-300'
+	 add: -300
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Purple'
+	 label2: '+200'
+	 add: 200
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+	 jump: '7'
+	 min price active: null
+
+	 jump: '6'
+	 min price active: null
+
+	 jump: '5'
+	 min price active: null
+
+	 jump: '4'
+	 min price active: null
+
+	 jump: '3'
+	 min price active: null
+
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: 'Yellow'
+	 cost: 50
+	 order: 1
+
+	 name: 'Yellow'
+	 cost: 100
+	 order: 2
+
+	 name: 'Orange'
+	 cost: 100
+	 order: 3
+
+	 name: 'Orange'
+	 cost: 200
+	 order: 4
+
+	 name: 'Orange'
+	 cost: 300
+	 order: 5
+
+	 name: 'Red'
+	 cost: 300
+	 order: 6
+
+	 name: 'Red'
+	 cost: 400
+	 order: 7
+
+	 name: 'Red'
+	 cost: 500
+	 order: 8
+
+	 name: 'Pink'
+	 cost: 400
+	 order: 9
+
+	 name: 'Pink'
+	 cost: 500
+	 order: 10
+
+	 name: 'Pink'
+	 cost: 600
+	 order: 11
+
+	 name: 'Purple'
+	 cost: 600
+	 order: 12
+
+	 name: 'Purple'
+	 cost: 800
+	 order: 13
+
+assets:
+asset classes:

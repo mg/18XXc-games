@@ -1,55 +1,126 @@
-name: '18MEX'
-bggId: '18485'
-revenue stops: 10, 20, 30, 40, 50, 60, 80, 100, 120
+Name: '18MEX'
+bggId: 18485
+revenue stops: [10, 20, 30, 40, 50, 60, 80, 100, 120]
 max or: 3
-ownership: 0.1, 0.2, 0.3, 0.4, 0.5, 0.6
-stock prices: 10, 20, .0, 40, 45, 50, 55, 60, 65, 70, 75, 80, 90, 100, 110, 120, 130, 140, 150, 165, 180, 200
-par values: 60, 70, 74, 80, 90
-ownership to float: 0.5
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [10, 20, 30, 40, 45, 50, 55, 60, 65, 70, 75, 80, 90, 100, 110, 120, 130, 140, 150, 165, 180, 200]
+par values: [60, 70, 75, 80, 90]
+percent to float: 0.5
+stocks to float: null
+floating structures: []
 bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
 companies:
-    name: 'Chihuahua Pacific Railway'
-    shortName: 'Chi'
-    color: #FF0102
+	 name: 'Chihuahua Pacific Railway'
+	 short name: 'Chi'
+	 color: Color(0xffff0102)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'Mexican Central Railway'
-    shortName: 'MC'
-    color: #000000
+	 name: 'Mexican Central Railway'
+	 short name: 'MC'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'National Railways of Mexico'
-    shortName: 'NdM'
-    color: #048004
-    additional ownership: 0.05, 0.15, 0.25, 0.35, 0.45, 0.55
+	 name: 'National Railways of Mexico'
+	 short name: 'NdM'
+	 color: Color(0xff048004)
+	 additional ownership: [0.05, 0.15, 0.25, 0.35, 0.45, 0.55]
+	 corporate structures: []
 
-    name: 'United Railways of Yucatan'
-    shortName: 'UdY'
-    color: #800080
-    additional ownership: 0.7
+	 name: 'United Railways of Yucatan'
+	 short name: 'UdY'
+	 color: Color(0xff800080)
+	 additional ownership: [0.7]
+	 corporate structures: []
 
-    name: 'Southern Pacific Railroad of Mexico'
-    shortName: 'SPM'
-    color: #4A4A4A
+	 name: 'Southern Pacific Railroad of Mexico'
+	 short name: 'SPM'
+	 color: Color(0xff0bc7ff)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'Mexican Railway'
-    shortName: 'MEX'
-    color: #808080
+	 name: 'Mexican Railway'
+	 short name: 'MEX'
+	 color: Color(0xff808080)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'Texas-Mexican Railway'
-    shortName: 'TM'
-    color: #FFA500
+	 name: 'Texas-Mexican Railway'
+	 short name: 'TM'
+	 color: Color(0xffffa500)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'Pacific Railroad'
-    shortName: 'PAC'
-    color: #FEFF00     
+	 name: 'Pacific Railroad'
+	 short name: 'PAC'
+	 color: Color(0xfffeff00)
+	 additional ownership: []
+	 corporate structures: []
+
+route bonuses:
+revenue bonuses:
+stock jumps:
 trains:
-    name: '4'
-    cost: 300
+	 name: '2'
+	 cost: 100
+	 order: null
 
-    name: '5'
-    cost: 450
+	 name: '3'
+	 cost: 180
+	 order: null
 
-    name: '6'
-    cost: 600
+	 name: '4'
+	 cost: 300
+	 order: null
 
-    name: '4D'
-    cost: 700
+	 name: '5'
+	 cost: 450
+	 order: null
+
+	 name: '6'
+	 cost: 600
+	 order: null
+
+	 name: '4D'
+	 cost: 700
+	 order: null
+
+assets:
+	 name: 'Mexico City - Acapulco Railroad'
+	 short name: 'MCA'
+	 worth: 20
+
+	 name: 'Kansas City, Mexico, & Orient Railroad'
+	 short name: 'KM&O'
+	 worth: 40
+
+	 name: 'Interoceanic Railroad'
+	 short name: 'IR'
+	 worth: 50
+
+	 name: 'Sonor-Baja California Railroad'
+	 short name: 'SBC'
+	 worth: 50
+
+	 name: 'Southeastern Railway'
+	 short name: 'SER'
+	 worth: 50
+
+	 name: 'Mexican International Railroad'
+	 short name: 'MI'
+	 worth: 100
+
+	 name: 'Mexican National Railroad'
+	 short name: 'MN'
+	 worth: 140
+
+asset classes:

@@ -1,0 +1,140 @@
+Name: '1830: Railways & Robber Barons'
+bggId: 421
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [10, 18, 20, 25, 27, 30, 32, 34, 36, 38, 39, 40, 41, 42, 45, 46, 48, 50, 53, 54, 55, 58, 60, 62, 63, 65, 66, 67, 68, 69, 70, 71, 75, 76, 80, 82, 90, 100, 110, 111, 112, 120, 125, 126, 130, 140, 142, 155, 160, 170, 180, 185, 200, 220, 225, 240, 250, 260, 275, 280, 300, 325, 350]
+par values: [67, 71, 76, 82, 90, 100]
+percent to float: 0.6
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Public'
+	 order: '0'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Pennsylvania Railroad'
+	 short name: 'PRR'
+	 color: Color(0xff237333)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'New York Central System'
+	 short name: 'NYC'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Canadian Pacific Railroad'
+	 short name: 'CPR'
+	 color: Color(0xffc4012b)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Baltimore & Ohio Railroad'
+	 short name: 'B&O'
+	 color: Color(0xff0188d1)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Chesapeake & Ohio Railroad'
+	 short name: 'C&O'
+	 color: Color(0xffa2dced)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Erie Railroad'
+	 short name: 'Erie'
+	 color: Color(0xffffffff)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'New York, New Haven & Hartford Railroad'
+	 short name: 'NNH'
+	 color: Color(0xffe76234)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Boston & Maine Railroad'
+	 short name: 'B&M'
+	 color: Color(0xfff3b720)
+	 additional ownership: []
+	 corporate structures: []
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2'
+	 cost: 80
+	 order: null
+
+	 name: '3'
+	 cost: 180
+	 order: null
+
+	 name: '4'
+	 cost: 300
+	 order: null
+
+	 name: '5'
+	 cost: 450
+	 order: null
+
+	 name: '6'
+	 cost: 630
+	 order: null
+
+	 name: 'D'
+	 cost: 1100
+	 order: null
+
+assets:
+	 name: 'Schuylkill Valley'
+	 short name: 'SV'
+	 worth: 20
+
+	 name: 'Champlain & St. Lawrence'
+	 short name: 'CS'
+	 worth: 40
+
+	 name: 'Delaware & Hudson'
+	 short name: 'DH'
+	 worth: 70
+
+	 name: 'Mohawk & Hudson'
+	 short name: 'MH'
+	 worth: 110
+
+	 name: 'Camden & Amboy'
+	 short name: 'CA'
+	 worth: 160
+
+	 name: 'Baltimore & Ohio'
+	 short name: 'BO'
+	 worth: 220
+
+asset classes:

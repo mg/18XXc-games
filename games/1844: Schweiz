@@ -1,0 +1,279 @@
+Name: '1844: Schweiz'
+bggId: 183308
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5]
+stock prices: [30, 35, 40, 45, 48, 50, 52, 55, 56, 57, 58, 59, 60, 64, 70, 80, 90, 100, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 165, 170, 175, 180, 185, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350]
+par values: [60, 70, 80, 90, 100]
+percent to float: null
+stocks to float: null
+floating structures: [0, , 1, , 2, ]
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.Custom
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Historical'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Regional'
+	 order: '2'
+	 primary stock: '0.4'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: '200'
+	 max bank pool: '0.4'
+	 percent to float: '0.6'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '3'
+	 name: 'SBB'
+	 order: '3'
+	 primary stock: 'null'
+	 common stock: '0.05'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '1.0'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '2'
+	 name: 'Pre-SBB'
+	 order: '4'
+	 primary stock: '0.5'
+	 common stock: '0.25'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Appenzeller Bahn'
+	 short name: 'AB'
+	 color: Color(0xff606672)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Bern-Lötschberg-Simplon'
+	 short name: 'BLS'
+	 color: Color(0xffa6d608)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Ferrovie Nord Milano'
+	 short name: 'FNM'
+	 color: Color(0xff00853e)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Montreux-Oberland Bernois'
+	 short name: 'MOB'
+	 color: Color(0xffffce00)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Rhätische Bahn'
+	 short name: 'RhB'
+	 color: Color(0xffe71837)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Sensetalbahn'
+	 short name: 'STB'
+	 color: Color(0xff0736a4)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Chur-Arosa'
+	 short name: 'ChA'
+	 color: Color(0xff02193c)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Jura-Neuchatel'
+	 short name: 'JN'
+	 color: Color(0xff106b21)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Visp-Zermatt'
+	 short name: 'VZ'
+	 color: Color(0xffce0018)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Schweizer Bundersbahnen'
+	 short name: 'SBB'
+	 color: Color(0xffc62033)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Gotthardbahn'
+	 short name: 'GB'
+	 color: Color(0xffd9e650)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Jura-Simplon'
+	 short name: 'JS'
+	 color: Color(0xffedece6)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Schweizerische Nordostbahn'
+	 short name: 'NOB'
+	 color: Color(0xff27357e)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Schweizerische Centralbahn'
+	 short name: 'SCB'
+	 color: Color(0xff563776)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Vereinigte Schweizer Bahnen'
+	 short name: 'VSB'
+	 color: Color(0xff196227)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+route bonuses:
+	 label1: 'N↔S'
+	 label2: '+70'
+	 add: 70
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'W↔E'
+	 label2: '+100'
+	 add: 100
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'W↔E'
+	 label2: '+140'
+	 add: 140
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'W↔E'
+	 label2: '+180'
+	 add: 180
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Tunn'
+	 label2: 'null'
+	 add: null
+	 multiply: null
+	 divide: null
+	 add per stop: 10
+
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2H'
+	 cost: 70
+	 order: 1
+
+	 name: '2'
+	 cost: 90
+	 order: 2
+
+	 name: '3H'
+	 cost: 150
+	 order: 3
+
+	 name: '3'
+	 cost: 180
+	 order: 4
+
+	 name: '4H'
+	 cost: 260
+	 order: 5
+
+	 name: '4'
+	 cost: 300
+	 order: 6
+
+	 name: '5H'
+	 cost: 400
+	 order: 7
+
+	 name: '5'
+	 cost: 450
+	 order: 8
+
+	 name: '6H'
+	 cost: 550
+	 order: 9
+
+	 name: '6'
+	 cost: 630
+	 order: 10
+
+	 name: '8H'
+	 cost: 700
+	 order: 11
+
+	 name: '8E'
+	 cost: 960
+	 order: 12
+
+assets:
+asset classes:
+	 name: 'Tunnel'
+	 worth: 50
+	 max count: 5
+
+	 name: 'Mountain'
+	 worth: 150
+	 max count: 5
+

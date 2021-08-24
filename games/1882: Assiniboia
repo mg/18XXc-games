@@ -1,0 +1,151 @@
+Name: '1882: Assiniboia'
+bggId: 282435
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [10, 20, 30, 40, 45, 50, 54, 55, 58, 60, 62, 63, 65, 66, 67, 68, 69, 70, 71, 75, 76, 80, 82, 90, 100, 110, 111, 112, 120, 125, 126, 130, 140, 142, 155, 160, 170, 180, 185, 200, 200, 220, 225, 240, 250, 260, 275, 280, 300, 325, 350]
+par values: [67, 71, 76, 82, 90, 100]
+percent to float: 0.6
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Public'
+	 order: '0'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Canadian National Railway'
+	 short name: 'CN'
+	 color: Color(0xffffa300)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Canadian Northern Railway'
+	 short name: 'CNR'
+	 color: Color(0xff227332)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Canadian Pacific Railway'
+	 short name: 'CPR'
+	 color: Color(0xffd81e3d)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Grand Trunk Pacific Railway'
+	 short name: 'GT'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Hudson Bay Railway'
+	 short name: 'HBR'
+	 color: Color(0xffffd700)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Qu'Appelle, Long Lake, And Saskatchewan Railway'
+	 short name: 'QLL'
+	 color: Color(0xff800080)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Saskatchewan Central Railroad'
+	 short name: 'SC'
+	 color: Color(0xff0489d0)
+	 additional ownership: []
+	 corporate structures: []
+
+route bonuses:
+	 label1: 'HB'
+	 label2: '+100'
+	 add: 100
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'FE'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'FE'
+	 label2: '+30'
+	 add: 30
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2'
+	 cost: 80
+	 order: null
+
+	 name: '3'
+	 cost: 180
+	 order: null
+
+	 name: '4'
+	 cost: 300
+	 order: null
+
+	 name: '5'
+	 cost: 450
+	 order: null
+
+	 name: '6'
+	 cost: 630
+	 order: null
+
+	 name: 'D'
+	 cost: 1100
+	 order: null
+
+assets:
+	 name: 'Hudson Bay Company'
+	 short name: 'HB'
+	 worth: 20
+
+	 name: 'Saskatchewa Central Company'
+	 short name: 'SC'
+	 worth: 50
+
+	 name: 'North-West Rebellion Company'
+	 short name: 'NWR'
+	 worth: 80
+
+	 name: 'Trestle Bridge Company'
+	 short name: 'TB'
+	 worth: 140
+
+	 name: 'Canadian Pacific Company'
+	 short name: 'CP'
+	 worth: 180
+
+asset classes:

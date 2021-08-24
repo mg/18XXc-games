@@ -1,53 +1,122 @@
-name: '18Chesapeake'
-bggId: '253608'
-revenue stops: 10, 20, 30, 40, 50, 60, 70, 80, 100
+Name: '18Chesapeake'
+bggId: 253608
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 100]
 max or: 3
-ownership: 0.1, 0.2, 0.3, 0.4, 0.5, 0.6
-stock prices: 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 125, 130, 140, 145, 160, 180, 200, 225, 250, 275, 300, 325, 350, 375
-par values: 70, 80, 95
-ownership to float: 0.6
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 125, 130, 140, 145, 160, 180, 200, 225, 250, 275, 300, 325, 350, 375]
+par values: [70, 80, 95]
+percent to float: 0.6
+stocks to float: null
+floating structures: []
 bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
 companies:
-    name: 'Baltimore & Ohio Railroad'
-    shortName: 'B&O'
-    color: #0188d1
+	 name: 'Baltimore & Ohio Railroad'
+	 short name: 'B&O'
+	 color: Color(0xff0188d1)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'Pennsylvania Railroad'
-    shortName: 'PRR'
-    color: #237333
+	 name: 'Camden & Amboy Railroad'
+	 short name: 'C&A'
+	 color: Color(0xfff48321)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'Pittsburgh and Lake Erie Railroad'
-    shortName: 'PLE'
-    color: #000000
+	 name: 'Chesapeake & Ohio Railroad'
+	 short name: 'C&O'
+	 color: Color(0xffa2dced)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'Strasburg Rail Road'
-    shortName: 'SRR'
-    color: #d81e3d
+	 name: 'Lehigh Valley Railroad'
+	 short name: 'LV'
+	 color: Color(0xfffff500)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'Chesapeake & Ohio Railroad'
-    shortName: 'C&O'
-    color: #a2dced
+	 name: 'Norfolk & Western Railway'
+	 short name: 'N&W'
+	 color: Color(0xff7b352a)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'Lehigh Valley Railroad'
-    shortName: 'LV'
-    color: #fff500
+	 name: 'Pittsburgh and Lake Erie Railroad'
+	 short name: 'PLE'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'Camden & Amboy Railroad'
-    shortName: 'C&A'
-    color: #f48321
+	 name: 'Pennsylvania Railroad'
+	 short name: 'PRR'
+	 color: Color(0xff237333)
+	 additional ownership: []
+	 corporate structures: []
 
-    name: 'Norfolk & Western Railway'
-    shortName: 'N&W'
-    color: #7b352a
+	 name: 'Strasburg Rail Road'
+	 short name: 'SRR'
+	 color: Color(0xffd81e3d)
+	 additional ownership: []
+	 corporate structures: []
+
+route bonuses:
+revenue bonuses:
+stock jumps:
 trains:
-    name: '4'
-    cost: 200
+	 name: '2'
+	 cost: 80
+	 order: null
 
-    name: '5'
-    cost: 500
+	 name: '3'
+	 cost: 180
+	 order: null
 
-    name: '6'
-    cost: 630
+	 name: '4'
+	 cost: 200
+	 order: null
 
-    name: 'D'
-    cost: 900
+	 name: '5'
+	 cost: 500
+	 order: null
+
+	 name: '6'
+	 cost: 630
+	 order: null
+
+	 name: 'D'
+	 cost: 900
+	 order: null
+
+assets:
+	 name: 'Delaware and Raritan Canal'
+	 short name: 'D&RC'
+	 worth: 20
+
+	 name: 'Columbia Philadelphia Railroad'
+	 short name: 'CDR'
+	 worth: 40
+
+	 name: 'Baltimore and Susquehanna Railroad'
+	 short name: 'B&SR'
+	 worth: 50
+
+	 name: 'Chesapeake and Ohio Canal'
+	 short name: 'C&OC'
+	 worth: 80
+
+	 name: 'Baltimore and Ohio Railroad'
+	 short name: 'B&OR'
+	 worth: 100
+
+	 name: 'Cornelius Vanderbilt'
+	 short name: 'CV'
+	 worth: 200
+
+asset classes:
