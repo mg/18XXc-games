@@ -25,7 +25,7 @@ The terms of use for the 18XXc mobile application for iOS (“iOS App Terms of U
 
    As a User, you represent and warrant that: (a) the App will not be downloaded in, used in, or transported to a country that is subject to a U.S. Government embargo or EU government sanctions, or that has been designated by the U.S. Government or any EU government as a "terrorist-supporting" country or similar; and (b) neither Customer nor User is listed on any U.S. Government or EU government list of prohibited or restricted parties.
 
-   Magnús Örn address is Gautavík 11, 112 Reykjavík, Iceland. Any claims regarding the App may be submitted via email to magnus.gylfason@gmail.com.
+   Magnús Örn address is Æsuborgir 16, 112 Reykjavík, Iceland. Any claims regarding the App may be submitted via email to magnus.gylfason@gmail.com.
 
    Notwithstanding anything to the contrary in the Agreement, Apple and its subsidiaries are third-party beneficiaries of the iOS App Terms of Use, and have the right (and shall be deemed to have accepted the right) to enforce the iOS App Terms of Use against you and Customer.
 
