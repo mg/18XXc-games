@@ -11,24 +11,32 @@ payout: PayoutOption.full
 companies:
     name: Daihan Railway
     short name: DR
+    color: Color(0x0c6aa5)
 
     name: Gyeongbu Railway
     short name: GR
+    color: Color(0x58b46e)
 
     name: Pyeongyang Railroad
     short name: PR
+    color: Color(0xdc3d47)
 
     mame: Buha Railroad
     short name: BR
+    color: Color(0x229c94)
 
     name: Honam Railway
     short name: HR
+    color: Color(0xd58531)
 
     name: Yeongnam Railway
     short name: YR
+    color: Color(0x814e8d)
 
     name: Fives Lille
     short name: FL
+    color: Color(0xe98788)
 
     name: Russia Railway
     short name: RR
+    color: Color(0xfbd13c)
