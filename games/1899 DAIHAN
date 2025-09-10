@@ -8,3 +8,27 @@ par values: [65, 70, 75, 80, 90, 100]
 percent to float: 0.6
 bank pool: 0.5
 payout: PayoutOption.full
+companies:
+    name: Daihan Railway
+    short name: DR
+
+    name: Gyeongbu Railway
+    short name: GR
+
+    name: Pyeongyang Railroad
+    short name: PR
+
+    mame: Buha Railroad
+    short name: BR
+
+    name: Honam Railway
+    short name: HR
+
+    name: Yeongnam Railway
+    short name: YR
+
+    name: Fives Lille
+    short name: FL
+
+    name: Russia Railway
+    short name: RR
