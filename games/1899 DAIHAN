@@ -57,3 +57,32 @@ route bonuses:
     label1: Goods
     label2: +80
     add: 80
+
+assets:
+    name: 'Seoul Tram'
+    short name: ST
+    worth: 20
+
+    name: 'Grain Export Association'
+    short name: 'GEA'
+    worth: 50
+
+    name: 'Mining Partnership Co.'
+    short name: 'MPC'
+    worth: 50
+
+    name: 'Joseon Mining Company'
+    short name: 'JMC'
+    worth: 50
+
+    name: 'Ginseng Public Company'
+    short name: 'GPC'
+    worth: 50
+
+    name: 'Park Ki-Jong'
+    short name: 'PKJ'
+    worth: 60
+
+    name: 'Kyeongin Railway Co.'
+    short name: 'KRC'
+    worth: 120 
