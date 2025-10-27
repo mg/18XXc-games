@@ -45,6 +45,31 @@ revenue bonuses:
     label: 'Goods'
     adds: [30, 40, 60, 80]
 
+trains:
+    name: '2'
+    cost: 80
+    order: 1
+
+    name: '3'
+    cost: 180
+    order: 2
+
+    name: '4'
+    cost: 300
+    order: 3
+
+    name: '5'
+    cost: 450
+    order: 4
+
+    name: '6'
+    cost: 630
+    order: 5
+
+    name: 'D'
+    cost: 1100
+    order: 6
+
 assets:
     name: 'Seoul Tram'
     short name: ST
