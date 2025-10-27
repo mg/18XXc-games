@@ -41,22 +41,9 @@ companies:
     short name: RR
     color: Color(0xfbd13c)
 
-route bonuses:
-    label1: Goods
-    label2: +30
-    add: 30
-
-    label1: Goods
-    label2: +40
-    add: 40
-
-    label1: Goods
-    label2: +60
-    add: 60
-
-    label1: Goods
-    label2: +80
-    add: 80
+revenue bonuses:
+    label: 'Goods'
+    adds: [30, 40, 60, 80]
 
 assets:
     name: 'Seoul Tram'
