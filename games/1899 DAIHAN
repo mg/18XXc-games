@@ -1,0 +1,100 @@
+name: '1899 DAIHAN'
+bggid: 428264
+revenue stops: [10, 20, 30, 40, 50, 60]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [40, 45, 50, 55, 60, 65, 70, 75, 80, 90, 100, 110, 120, 135, 150, 170, 190, 215, 240, 270, 300, 335, 370, 410, 450]
+par values: [65, 70, 75, 80, 90, 100]
+percent to float: 0.6
+bank pool: 0.5
+payout: PayoutOption.full
+companies:
+    name: Daihan Railway
+    short name: DR
+    color: Color(0x0c6aa5)
+
+    name: Gyeongbu Railway
+    short name: GR
+    color: Color(0x58b46e)
+
+    name: Pyeongyang Railroad
+    short name: PR
+    color: Color(0xdc3d47)
+
+    mame: Buha Railroad
+    short name: BR
+    color: Color(0x229c94)
+
+    name: Honam Railway
+    short name: HR
+    color: Color(0xd58531)
+
+    name: Yeongnam Railway
+    short name: YR
+    color: Color(0x814e8d)
+
+    name: Fives Lille
+    short name: FL
+    color: Color(0xe98788)
+
+    name: Russia Railway
+    short name: RR
+    color: Color(0xfbd13c)
+
+revenue bonuses:
+    label: 'Goods'
+    adds: [30, 40, 60, 80]
+
+trains:
+    name: '2'
+    cost: 80
+    order: 1
+
+    name: '3'
+    cost: 180
+    order: 2
+
+    name: '4'
+    cost: 300
+    order: 3
+
+    name: '5'
+    cost: 450
+    order: 4
+
+    name: '6'
+    cost: 630
+    order: 5
+
+    name: 'D'
+    cost: 1100
+    order: 6
+
+assets:
+    name: 'Seoul Tram'
+    short name: ST
+    worth: 20
+
+    name: 'Grain Export Association'
+    short name: 'GEA'
+    worth: 50
+
+    name: 'Mining Partnership Co.'
+    short name: 'MPC'
+    worth: 50
+
+    name: 'Joseon Mining Company'
+    short name: 'JMC'
+    worth: 50
+
+    name: 'Ginseng Public Company'
+    short name: 'GPC'
+    worth: 50
+
+    name: 'Park Ki-Jong'
+    short name: 'PKJ'
+    worth: 60
+
+    name: 'Kyeongin Railway Co.'
+    short name: 'KRC'
+    worth: 120 
