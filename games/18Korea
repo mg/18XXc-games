@@ -8,6 +8,55 @@ par values: []
 percent to float: null
 payout: PayoutOption.full
 
+companies:
+  name: 'Seoul Railway'
+  short name: 'SR'
+  color: Color(0xe7646a)
+
+  name: 'Incheon Railway'
+  short name: 'IR'
+  color: Color(0xeb8d5a)
+
+  name: 'Wonju Railway'
+  short name: 'WJ'
+  color: Color(0xf5e44c)
+
+  name: 'Gangneung Railway'
+  short name: 'GNR'
+  color: Color(0x9aea4d)
+
+  name: 'Daejeon Railway'
+  short name: 'DJR'
+  color: Color(0x2cd75f)
+
+  name: 'Andong Railway'
+  short name: 'AR'
+  color: Color(0x30ddfa)
+
+  name: 'Busan Railway'
+  short name: 'BR'
+  color: Color(0x286be9)
+
+  name: 'Daegu Railway'
+  short name: 'DR'
+  color: Color(0x413b94)
+
+  name: 'Gwangju Railway'
+  short name: 'GJR'
+  color: Color(0x6f79ee)
+
+  name: 'Gusan Railway'
+  short name: 'GR'
+  color: Color(0x253242)
+
+  name: 'Jinju Railway'
+  short name: 'JR'
+  color: Color(0x4b68a3)
+
+  name: 'Changwon Railway'
+  short name: 'CR'
+  color: Color(0xe72193)
+
 trains:
   name: '2'
   cost: 100
