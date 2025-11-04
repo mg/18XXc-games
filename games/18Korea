@@ -8,6 +8,30 @@ par values: []
 percent to float: null
 payout: PayoutOption.full
 
+trains:
+  name: '2'
+  cost: 100
+  order: 1
+
+  name: '3'
+  cost: 180
+  order: 2
+
+  name: '4'
+  cost: 300
+  order: 3
+
+  name: '5E'
+  cost: 500
+  order: 4
+
+  name: '6E'
+  cost: 600
+  order: 5
+
+  name: '8E'
+  cost: 800
+  order: 6
 
 
 
