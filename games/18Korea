@@ -18,7 +18,7 @@ companies:
   color: Color(0xeb8d5a)
 
   name: 'Wonju Railway'
-  short name: 'WJ'
+  short name: 'WJR'
   color: Color(0xf5e44c)
 
   name: 'Gangneung Railway'
@@ -54,7 +54,55 @@ companies:
   color: Color(0x4b68a3)
 
   name: 'Changwon Railway'
-  short name: 'CR'
+  short name: 'CWR'
+  color: Color(0xe72193)
+
+  name: 'Rason Railway'
+  short name: 'RR'
+  color: Color(0xe7646a)
+
+  name: 'Chōngjin Railway'
+  short name: 'CJR'
+  color: Color(0xeb8d5a)
+
+  name: 'Hyesan Railway'
+  short name: 'HJ'
+  color: Color(0xf5e44c)
+
+  name: 'Manpho Railway'
+  short name: 'MR'
+  color: Color(0x9aea4d)
+
+  name: 'Tanchōn Railway'
+  short name: 'TR'
+  color: Color(0x2cd75f)
+
+  name: 'Kaechon Railway'
+  short name: 'KCR'
+  color: Color(0x30ddfa)
+
+  name: 'Hamhūng Railway'
+  short name: 'HHR'
+  color: Color(0x286be9)
+
+  name: 'Wonsan Railway'
+  short name: 'WSR'
+  color: Color(0x413b94)
+
+  name: 'Pyongyang Railway'
+  short name: 'PYR'
+  color: Color(0x6f79ee)
+
+  name: 'Nampho Railway'
+  short name: 'NR'
+  color: Color(0x253242)
+
+  name: 'Kaesong Railway'
+  short name: 'KSR'
+  color: Color(0x4b68a3)
+
+  name: 'Sinuiju Railway'
+  short name: 'SJR'
   color: Color(0xe72193)
 
 trains:
