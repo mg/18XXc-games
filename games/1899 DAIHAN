@@ -5,7 +5,7 @@ max or: 3
 ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
 stock prices: [40, 45, 50, 55, 60, 65, 70, 75, 80, 90, 100, 110, 120, 135, 150, 170, 190, 215, 240, 270, 300, 335, 370, 410, 450]
 par values: [65, 70, 75, 80, 90, 100]
-percent to float: 0.6
+percent to float: 0.5
 bank pool: 0.5
 payout: PayoutOption.full
 companies:
