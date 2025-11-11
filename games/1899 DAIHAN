@@ -43,7 +43,7 @@ companies:
 
 revenue bonuses:
     label: 'Goods'
-    adds: [30, 40, 60, 80]
+    adds: [20, 30, 40, 60, 80]
 
 trains:
     name: '2'
