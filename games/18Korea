@@ -5,7 +5,7 @@ max or: 2
 ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
 stock prices: [30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 110, 120, 130, 145, 160, 180, 200, 220, 240, 260, 280, 310, 340, 370, 400, 430, 450]
 par values: []
-percent to float: null
+percent to float: 0.2
 bank pool: 1
 payout: PayoutOption.full
 corporate structures:
