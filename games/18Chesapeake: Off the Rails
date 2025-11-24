@@ -35,6 +35,7 @@ corporate structures:
 	 par values: 'null'
 	 short limit: 'null'
 	 option price: 'null'
+	 
 companies:
 	 name: 'Baltimore & Ohio Railroad'
 	 short name: 'B&O'
