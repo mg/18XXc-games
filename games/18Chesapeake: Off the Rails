@@ -84,9 +84,6 @@ companies:
 	 additional ownership: []
 	 corporate structures: []
 
-route bonuses:
-revenue bonuses:
-stock jumps:
 trains:
 	 name: '2'
 	 cost: 80
@@ -136,5 +133,3 @@ assets:
 	 name: 'Cornelius Vanderbilt'
 	 short name: 'CV'
 	 worth: 200
-
-asset classes:
