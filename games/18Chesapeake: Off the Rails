@@ -17,6 +17,24 @@ player max fixed loans: null
 payout: PayoutOption.Full
 disable: []
 corporate structures:
+	 id: '0'
+	 name: 'Exceptional payouts'
+	 order: '0'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
 companies:
 	 name: 'Baltimore & Ohio Railroad'
 	 short name: 'B&O'
