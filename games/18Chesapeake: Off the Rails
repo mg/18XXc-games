@@ -91,7 +91,7 @@ trains:
 	 order: null
 
 	 name: 'D'
-	 cost: 900
+	 cost: 1100
 	 order: null
 
 assets:
