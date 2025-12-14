@@ -1,0 +1,151 @@
+Name: '18Korea'
+bggId: 346248
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 110, 120, 130, 145, 160, 180, 200, 220, 240, 260, 280, 310, 340, 370, 400, 430, 450]
+par values: [60, 65, 70, 80, 90, 100, 110, 120, 130, 145, 160, 180, 200]
+percent to float: 0.2
+bank pool: 1
+payout: PayoutOption.full
+corporate structures:
+  id: '0'
+  name: 'Exceptional Payouts'
+  order: '0'
+  primary stock: '0.2'
+  common stock: '0.1'
+  min ownership: 'null'
+  max ownership: '1.0'
+  max ownership all: '1.0'
+  share/stock ratio: '1.0'
+  max stock price: 'null'
+  max bank pool: '1'
+  percent to float: 'null'
+  stocks to float: 'null'
+
+  full cap: 'null'
+  par values: 'null'
+  short limit: 'null'
+  option price: 'null'
+companies:
+  name: 'Seoul Railway'
+  short name: 'SR'
+  color: Color(0xe7646a)
+
+  name: 'Incheon Railway'
+  short name: 'IR'
+  color: Color(0xeb8d5a)
+
+  name: 'Wonju Railway'
+  short name: 'WJR'
+  color: Color(0xf5e44c)
+
+  name: 'Gangneung Railway'
+  short name: 'GNR'
+  color: Color(0x9aea4d)
+
+  name: 'Daejeon Railway'
+  short name: 'DJR'
+  color: Color(0x2cd75f)
+
+  name: 'Andong Railway'
+  short name: 'AR'
+  color: Color(0x30ddfa)
+
+  name: 'Busan Railway'
+  short name: 'BR'
+  color: Color(0x286be9)
+
+  name: 'Daegu Railway'
+  short name: 'DR'
+  color: Color(0x413b94)
+
+  name: 'Gwangju Railway'
+  short name: 'GJR'
+  color: Color(0x6f79ee)
+
+  name: 'Gusan Railway'
+  short name: 'GR'
+  color: Color(0x253242)
+
+  name: 'Jinju Railway'
+  short name: 'JR'
+  color: Color(0x4b68a3)
+
+  name: 'Changwon Railway'
+  short name: 'CWR'
+  color: Color(0xe72193)
+
+  name: 'Rason Railway'
+  short name: 'RR'
+  color: Color(0xe7646a)
+
+  name: 'Chōngjin Railway'
+  short name: 'CJR'
+  color: Color(0xeb8d5a)
+
+  name: 'Hyesan Railway'
+  short name: 'HJ'
+  color: Color(0xf5e44c)
+
+  name: 'Manpho Railway'
+  short name: 'MR'
+  color: Color(0x9aea4d)
+
+  name: 'Tanchōn Railway'
+  short name: 'TR'
+  color: Color(0x2cd75f)
+
+  name: 'Kaechon Railway'
+  short name: 'KCR'
+  color: Color(0x30ddfa)
+
+  name: 'Hamhūng Railway'
+  short name: 'HHR'
+  color: Color(0x286be9)
+
+  name: 'Wonsan Railway'
+  short name: 'WSR'
+  color: Color(0x413b94)
+
+  name: 'Pyongyang Railway'
+  short name: 'PYR'
+  color: Color(0x6f79ee)
+
+  name: 'Nampho Railway'
+  short name: 'NR'
+  color: Color(0x253242)
+
+  name: 'Kaesong Railway'
+  short name: 'KSR'
+  color: Color(0x4b68a3)
+
+  name: 'Sinuiju Railway'
+  short name: 'SJR'
+  color: Color(0xe72193)
+
+trains:
+  name: '2'
+  cost: 100
+  order: 1
+
+  name: '3'
+  cost: 180
+  order: 2
+
+  name: '4'
+  cost: 300
+  order: 3
+
+  name: '5E'
+  cost: 500
+  order: 4
+
+  name: '6E'
+  cost: 600
+  order: 5
+
+  name: '8E'
+  cost: 800
+  order: 6
+  
