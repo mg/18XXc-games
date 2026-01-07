@@ -1,0 +1,418 @@
+Name: '18USA'
+bggId: 219717
+revenue stops: [20, 30, 40, 50, 60, 80, 100]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 1.0]
+stock prices: [42, 44, 46, 49, 51, 54, 57, 60, 63, 66, 69, 73, 76, 80, 84, 88, 93, 97, 102, 107, 113, 118, 124, 130, 137, 144, 151, 159, 167, 175, 184, 193, 203, 213, 224, 235, 247, 259, 272, 286, 300, 315, 331, 347, 365, 383, 402, 422, 443, 466, 489, 513, 539, 566, 594, 624, 655, 688, 722, 758, 800]
+par values: [50, 60, 65, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200]
+percent to float: null
+stocks to float: 2
+floating structures: []
+bank pool: 0.6
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: [DisableCalculator.EmergencyTrainPurchase]
+corporate structures:
+	 id: '0'
+	 name: '10 share'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.8'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: '1.0'
+	 option price: 'null'
+	 id: '1'
+	 name: '5 share'
+	 order: '2'
+	 primary stock: '0.4'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.6'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: '1.0'
+	 option price: 'null'
+	 id: '2'
+	 name: '2 share'
+	 order: '3'
+	 primary stock: '0.5'
+	 common stock: '0.5'
+	 min ownership: '1.0'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Atchison, Topeka and Santa Fe Railway'
+	 short name: 'ATSF'
+	 color: Color(0xff003366)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Baltimore and Ohio Railroad'
+	 short name: 'B&O'
+	 color: Color(0xff0066cc)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Chesapeake and Ohio Railway'
+	 short name: 'C&O'
+	 color: Color(0xff003366)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Denver and Rio Grande Western Railroad'
+	 short name: 'D&RGW'
+	 color: Color(0xffc4a672)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Great Northern Railway'
+	 short name: 'GN'
+	 color: Color(0xff87ceeb)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Illinois Central Railroad'
+	 short name: 'IC'
+	 color: Color(0xff40e0d0)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Kansas City Southern Railway'
+	 short name: 'KCS'
+	 color: Color(0xffcc0000)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Milwaukee Road'
+	 short name: 'MILW'
+	 color: Color(0xff808080)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Missouri-Kansas-Texas Railroad'
+	 short name: 'MKT'
+	 color: Color(0xff228b22)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Missouri Pacific Railroad'
+	 short name: 'MP'
+	 color: Color(0xff8b008b)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Norfolk and Western Railway'
+	 short name: 'N&W'
+	 color: Color(0xff8b4513)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Northern Pacific Railway'
+	 short name: 'NP'
+	 color: Color(0xff1a1a1a)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'New York Central Railroad'
+	 short name: 'NYC'
+	 color: Color(0xff000000)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Pennsylvania Railroad'
+	 short name: 'PRR'
+	 color: Color(0xff90ee90)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'St. Louis-San Francisco Railway'
+	 short name: 'SLSF'
+	 color: Color(0xffcc0000)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Southern Pacific Railroad'
+	 short name: 'SP'
+	 color: Color(0xffffa500)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Southern Railway'
+	 short name: 'SOU'
+	 color: Color(0xff228b22)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Texas and Pacific Railway'
+	 short name: 'T&P'
+	 color: Color(0xffff00ff)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Union Pacific Railroad'
+	 short name: 'UP'
+	 color: Color(0xffffd700)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+	 name: 'Western Pacific Railroad'
+	 short name: 'WP'
+	 color: Color(0xff8b4513)
+	 additional ownership: []
+	 corporate structures: [0, , 1, , 2, ]
+
+route bonuses:
+	 label1: 'Coal'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Oil'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Oil'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Ore'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Ore'
+	 label2: '+20'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Brdg'
+	 label2: '+10'
+	 add: 10
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'Pull'
+	 label2: '+20'
+	 add: null
+	 multiply: null
+	 divide: null
+	 add per stop: 20
+
+revenue bonuses:
+stock jumps:
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: '2'
+	 cost: 100
+	 order: 1
+
+	 name: '2+'
+	 cost: 100
+	 order: 2
+
+	 name: '3'
+	 cost: 250
+	 order: 3
+
+	 name: '3+'
+	 cost: 250
+	 order: 4
+
+	 name: '4'
+	 cost: 400
+	 order: 5
+
+	 name: '4+'
+	 cost: 400
+	 order: 6
+
+	 name: '5'
+	 cost: 600
+	 order: 7
+
+	 name: '6'
+	 cost: 750
+	 order: 8
+
+	 name: '7'
+	 cost: 900
+	 order: 9
+
+	 name: '8'
+	 cost: 1100
+	 order: 10
+
+assets:
+	 name: 'Lehigh Coal Mine Co.'
+	 short name: 'P1'
+	 worth: 30
+
+	 name: 'Fox Bridge Works'
+	 short name: 'P2'
+	 worth: 40
+
+	 name: 'Reece Oil and Gas'
+	 short name: 'P3'
+	 worth: 40
+
+	 name: 'Hendrickson Iron'
+	 short name: 'P4'
+	 worth: 40
+
+	 name: 'Nobel''s Blasting Powder'
+	 short name: 'P5'
+	 worth: 30
+
+	 name: 'Import / Export Hub'
+	 short name: 'P6'
+	 worth: 30
+
+	 name: 'Track Engineers'
+	 short name: 'P7'
+	 worth: 40
+
+	 name: 'Express Freight Service'
+	 short name: 'P8'
+	 worth: 40
+
+	 name: 'Boomtown'
+	 short name: 'P9'
+	 worth: 40
+
+	 name: 'Carnegie Steel Company'
+	 short name: 'P10'
+	 worth: 40
+
+	 name: 'Pettibone & Mulliken'
+	 short name: 'P11'
+	 worth: 40
+
+	 name: 'Standard Oil Co.'
+	 short name: 'P12'
+	 worth: 60
+
+	 name: 'Pennsy Boneyard'
+	 short name: 'P13'
+	 worth: 60
+
+	 name: 'Pyramid Scheme'
+	 short name: 'P14'
+	 worth: 60
+
+	 name: 'Western Land Grant'
+	 short name: 'P15'
+	 worth: 60
+
+	 name: 'Regional Headquarters'
+	 short name: 'P16'
+	 worth: 60
+
+	 name: 'Great Northern Railway'
+	 short name: 'P17'
+	 worth: 60
+
+	 name: 'Peabody Coal Company'
+	 short name: 'P18'
+	 worth: 60
+
+	 name: 'Union Switch & Signal'
+	 short name: 'P19'
+	 worth: 80
+
+	 name: 'Suem & Wynn Law Firm'
+	 short name: 'P20'
+	 worth: 80
+
+	 name: 'Keystone Bridge Co.'
+	 short name: 'P21'
+	 worth: 80
+
+	 name: 'American Bridge Company'
+	 short name: 'P22'
+	 worth: 80
+
+	 name: 'Bailey Yard'
+	 short name: 'P23'
+	 worth: 80
+
+	 name: 'Anaconda Copper'
+	 short name: 'P24'
+	 worth: 90
+
+	 name: 'American Locomotive Co.'
+	 short name: 'P25'
+	 worth: 90
+
+	 name: 'Rural Junction'
+	 short name: 'P26'
+	 worth: 90
+
+	 name: 'Company Town'
+	 short name: 'P27'
+	 worth: 90
+
+	 name: 'Consolidation Coal Co.'
+	 short name: 'P28'
+	 worth: 90
+
+	 name: 'Bankrupt Railroad'
+	 short name: 'P29'
+	 worth: 120
+
+	 name: 'Double Heading'
+	 short name: 'P30'
+	 worth: 120
+
+asset classes:
