@@ -235,6 +235,20 @@ route bonuses:
 	 divide: null
 	 add per stop: 20
 
+	 label1: 'F-Hl'
+	 label2: '+30'
+	 add: 30
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'C-Se'
+	 label2: '+30'
+	 add: 30
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
 revenue bonuses:
 	 label: 'Brdg'
 	 adds: [10]
