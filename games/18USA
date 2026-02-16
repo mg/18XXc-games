@@ -228,13 +228,6 @@ route bonuses:
 	 divide: null
 	 add per stop: null
 
-	 label1: 'Brdg'
-	 label2: '+10'
-	 add: 10
-	 multiply: null
-	 divide: null
-	 add per stop: null
-
 	 label1: 'Pull'
 	 label2: '+20'
 	 add: null
@@ -243,7 +236,16 @@ route bonuses:
 	 add per stop: 20
 
 revenue bonuses:
+	 label: 'Brdg'
+	 adds: [10]
+
 stock jumps:
+	 jump: '4'
+	 min price active: null
+
+	 jump: '3'
+	 min price active: null
+
 	 jump: '2'
 	 min price active: null
 
