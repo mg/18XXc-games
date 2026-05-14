@@ -1,0 +1,172 @@
+Name: '18DO: Dortmund'
+bggId: 238957
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [20, 40, 50, 55, 60, 65, 70, 75, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200, 220, 240, 260, 265, 290, 320, 350, 380]
+par values: [50, 55, 60, 65, 70, 75, 80, 90, 100]
+percent to float: 0.5
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Major'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.7'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Minor'
+	 order: '2'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '2'
+	 name: 'HHW'
+	 order: '3'
+	 primary stock: '0.3'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Bergisch-Märkische Eisenbahn'
+	 short name: 'BME'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.4000, blue: 0.8000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Cöln-Mindener Eisenbahngesellschaft'
+	 short name: 'CME'
+	 color: Color(alpha: 1.0000, red: 0.8000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Dortmund-Gronau-Enscheder Eisenbahn'
+	 short name: 'DGEE'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.6000, blue: 0.2000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Dortmunder Hafenbahn'
+	 short name: 'DHB'
+	 color: Color(alpha: 1.0000, red: 0.6000, green: 0.4000, blue: 0.2000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Hansabahn Dortmund'
+	 short name: 'HHW'
+	 color: Color(alpha: 1.0000, red: 0.4000, green: 0.4000, blue: 0.4000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Königlich-Westfälische Eisenbahn-Gesellschaft'
+	 short name: 'KWE'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.6000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Rheinische Eisenbahn-Gesellschaft'
+	 short name: 'RhE'
+	 color: Color(alpha: 1.0000, red: 0.6000, green: 0.2000, blue: 0.8000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+trains:
+	 name: '2'
+	 cost: 80
+	 order: 1
+
+	 name: '3'
+	 cost: 180
+	 order: 2
+
+	 name: '4'
+	 cost: 300
+	 order: 3
+
+	 name: '5'
+	 cost: 450
+	 order: 4
+
+	 name: '6'
+	 cost: 630
+	 order: 5
+
+	 name: '8'
+	 cost: 800
+	 order: 6
+
+assets:
+	 name: 'Private Brewery 1'
+	 short name: 'PB1'
+	 worth: 30
+
+	 name: 'Private Brewery 2'
+	 short name: 'PB2'
+	 worth: 50
+
+	 name: 'Private Brewery 3'
+	 short name: 'PB3'
+	 worth: 70
+
+	 name: 'Private Brewery 4'
+	 short name: 'PB4'
+	 worth: 90
+
+	 name: 'Private Brewery 5'
+	 short name: 'PB5'
+	 worth: 110
+
+asset classes:

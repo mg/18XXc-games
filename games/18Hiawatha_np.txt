@@ -1,0 +1,159 @@
+Name: '18 Hiawatha (No privates)'
+bggId: 343142
+revenue stops: [20, 30, 40, 50, 60]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 1.0]
+stock prices: [40, 45, 50, 60, 65, 70, 80, 90, 100, 110, 135, 150, 165, 180, 200, 220, 245, 270, 300, 330, 360, 400, 440, 490]
+par values: [50, 60, 65, 70, 80, 90, 100, 110, 135, 150, 165, 180, 200]
+percent to float: null
+stocks to float: 2
+floating structures: []
+bank pool: 0.6
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: [DisableCalculator.EmergencyTrainPurchase]
+corporate structures:
+	 id: '0'
+	 name: '10 share'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.8'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: '1.0'
+	 option price: 'null'
+	 id: '1'
+	 name: '5 share'
+	 order: '2'
+	 primary stock: '0.4'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.6'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: '1.0'
+	 option price: 'null'
+companies:
+	 name: 'Arcade and Attica Railroad'
+	 short name: 'A&A'
+	 color: Color(alpha: 1.0000, red: 0.8000, green: 0.6627, blue: 0.4706, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Alton and Southern Railroad'
+	 short name: 'A&S'
+	 color: Color(alpha: 1.0000, red: 0.5804, green: 0.0000, blue: 0.0314, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Boston and Albany Railroad'
+	 short name: 'B&A'
+	 color: Color(alpha: 1.0000, red: 0.9059, green: 0.0941, blue: 0.2157, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Belt Railway of Chicago'
+	 short name: 'Belt'
+	 color: Color(alpha: 1.0000, red: 0.8510, green: 0.5255, blue: 0.2275, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Bessemer and Lake Erie Railroad'
+	 short name: 'Bess'
+	 color: Color(alpha: 1.0000, red: 0.1490, green: 0.1451, blue: 0.0627, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Delaware, Lackawanna and Western Railroad'
+	 short name: 'DL&W'
+	 color: Color(alpha: 1.0000, red: 0.3961, green: 0.2784, blue: 0.2157, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Elgin, Joliet and Eastern Railway'
+	 short name: 'J'
+	 color: Color(alpha: 1.0000, red: 0.3412, green: 0.3725, blue: 0.2824, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Grand Trunk Western Railroad'
+	 short name: 'GT'
+	 color: Color(alpha: 1.0000, red: 0.5843, green: 0.2745, blue: 0.3176, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Housatonic Railroad'
+	 short name: 'H'
+	 color: Color(alpha: 1.0000, red: 0.7647, green: 0.8941, blue: 0.9098, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Morristown and Erie Railway'
+	 short name: 'ME'
+	 color: Color(alpha: 1.0000, red: 0.7804, green: 0.6431, blue: 0.3608, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'New York, Ontario and Western Railway'
+	 short name: 'NYOW'
+	 color: Color(alpha: 1.0000, red: 0.9961, green: 0.9647, blue: 0.7725, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'New York, Susquehanna and Western Railway'
+	 short name: 'NYSW'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.6667, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: '2'
+	 cost: 100
+	 order: 1
+
+	 name: '2+'
+	 cost: 100
+	 order: 2
+
+	 name: '3'
+	 cost: 250
+	 order: 3
+
+	 name: '4'
+	 cost: 400
+	 order: 4
+
+assets:
+asset classes:

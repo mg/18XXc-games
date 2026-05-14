@@ -1,0 +1,350 @@
+Name: 'Harzbahn 1873'
+bggId: 28944
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5]
+stock prices: [50, 70, 85, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 220, 240, 260, 280, 300, 330, 360, 390, 420, 450, 490, 530, 570, 610, 650, 700, 750, 800, 850, 900, 950, 1000]
+par values: [120, 150, 190, 240, 300]
+percent to float: null
+stocks to float: null
+floating structures: [0, ]
+bank pool: 0.8
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Railway (20%)'
+	 order: '1'
+	 primary stock: 'null'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.8'
+	 percent to float: '0.6'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Railway (10%)'
+	 order: '2'
+	 primary stock: 'null'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.8'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '2'
+	 name: 'Mining (50%)'
+	 order: '3'
+	 primary stock: 'null'
+	 common stock: '0.5'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.8'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '3'
+	 name: 'Mining (20%)'
+	 order: '4'
+	 primary stock: 'null'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.8'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '4'
+	 name: 'Mining (10%)'
+	 order: '5'
+	 primary stock: 'null'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.8'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '5'
+	 name: 'MHE'
+	 order: '6'
+	 primary stock: 'null'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.8'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Halberstadt-Blankenburger Eisenbahn'
+	 short name: 'HBE'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Gernrode-Harzgeroder Eisenbahn'
+	 short name: 'GHE'
+	 color: Color(alpha: 1.0000, red: 0.1961, green: 0.3804, blue: 0.6000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Nordhausen-Wernigeroder Eisenbahn'
+	 short name: 'NWE'
+	 color: Color(alpha: 1.0000, red: 0.6353, green: 0.6275, blue: 0.1412, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Südharzeisenbahn'
+	 short name: 'SHE'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Kleinbahn Ellrich-Zorge'
+	 short name: 'KEZ'
+	 color: Color(alpha: 1.0000, red: 0.1804, green: 0.1529, blue: 0.0510, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Wernigerode-Blankenburger Eisenbahn'
+	 short name: 'WBE'
+	 color: Color(alpha: 1.0000, red: 0.5843, green: 0.5804, blue: 0.5647, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Quedlinburger Lokalbahn'
+	 short name: 'QLB'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.4549, blue: 0.0549, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Harzer Werke'
+	 short name: 'HW'
+	 color: Color(alpha: 1.0000, red: 0.4667, green: 0.1451, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 3, , 4, ]
+
+	 name: 'Concordia'
+	 short name: 'CO'
+	 color: Color(alpha: 1.0000, red: 0.0863, green: 0.8078, blue: 0.5686, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 3, , 4, ]
+
+	 name: 'Montania'
+	 short name: 'MO'
+	 color: Color(alpha: 1.0000, red: 0.2667, green: 0.5412, blue: 0.1569, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 3, , 4, ]
+
+	 name: 'Schachtbau Nordhausen'
+	 short name: 'SN'
+	 color: Color(alpha: 1.0000, red: 0.9686, green: 0.5176, blue: 0.5529, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 3, , 4, ]
+
+	 name: 'Union'
+	 short name: 'U'
+	 color: Color(alpha: 1.0000, red: 0.5843, green: 0.0314, blue: 0.1333, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 3, , 4, ]
+
+	 name: 'Magdeburg-Halberstädter Eisenbahn'
+	 short name: 'MHE'
+	 color: Color(alpha: 1.0000, red: 0.7529, green: 0.7529, blue: 0.7529, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [5, ]
+
+route bonuses:
+	 label1: 'Diesel'
+	 label2: '+10/stop'
+	 add: null
+	 multiply: null
+	 divide: null
+	 add per stop: 10
+
+revenue bonuses:
+	 label: 'HW Bonus'
+	 adds: [50]
+
+stock jumps:
+	 jump: '3'
+	 min price active: null
+
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: '1T'
+	 cost: 100
+	 order: 1
+
+	 name: '2M'
+	 cost: 150
+	 order: 2
+
+	 name: '2S'
+	 cost: 50
+	 order: 3
+
+	 name: '2T'
+	 cost: 250
+	 order: 4
+
+	 name: '3M'
+	 cost: 300
+	 order: 5
+
+	 name: '3S'
+	 cost: 100
+	 order: 6
+
+	 name: '3T'
+	 cost: 450
+	 order: 7
+
+	 name: '4M'
+	 cost: 500
+	 order: 8
+
+	 name: '4S'
+	 cost: 150
+	 order: 9
+
+	 name: '4T'
+	 cost: 750
+	 order: 10
+
+	 name: '5M'
+	 cost: 800
+	 order: 11
+
+	 name: '5S'
+	 cost: 200
+	 order: 12
+
+	 name: '5T'
+	 cost: 1200
+	 order: 13
+
+	 name: 'D'
+	 cost: 250
+	 order: 14
+
+assets:
+	 name: 'Königshütte'
+	 short name: 'M1'
+	 worth: 110
+
+	 name: 'Wurmberg'
+	 short name: 'M2'
+	 worth: 120
+
+	 name: 'Silberhütte'
+	 short name: 'M3'
+	 worth: 130
+
+	 name: 'Hüttenrode'
+	 short name: 'M4'
+	 worth: 140
+
+	 name: 'Braunesumpf'
+	 short name: 'M5'
+	 worth: 150
+
+	 name: 'Rübeland'
+	 short name: 'M6'
+	 worth: 160
+
+	 name: 'Lindenberg'
+	 short name: 'M7'
+	 worth: 170
+
+	 name: 'Netzkater'
+	 short name: 'M8'
+	 worth: 180
+
+	 name: 'Wieda'
+	 short name: 'M9'
+	 worth: 190
+
+	 name: 'Elbingerode'
+	 short name: 'M10'
+	 worth: 200
+
+	 name: 'Tanne'
+	 short name: 'M11'
+	 worth: 220
+
+	 name: 'Blankenburg'
+	 short name: 'M12'
+	 worth: 240
+
+	 name: 'Harzgerode'
+	 short name: 'M13'
+	 worth: 260
+
+	 name: 'Zorge'
+	 short name: 'M14'
+	 worth: 280
+
+	 name: 'Thale'
+	 short name: 'M15'
+	 worth: 300
+
+asset classes:

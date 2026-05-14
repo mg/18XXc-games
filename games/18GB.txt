@@ -1,0 +1,210 @@
+Name: '18GB: The Railways of Great Britain'
+bggId: 245532
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [50, 55, 60, 65, 70, 75, 80, 90, 100, 115, 130, 145, 160, 180, 200, 220, 240, 265, 290, 320, 350, 380]
+par values: [70, 75, 80, 90, 100]
+percent to float: 0.4
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: '5 Share'
+	 order: '1'
+	 primary stock: '0.4'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '1.0'
+	 percent to float: '0.4'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: '10 Share'
+	 order: '2'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '1.0'
+	 percent to float: '0.6'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Caledonian Railway'
+	 short name: 'CR'
+	 color: Color(alpha: 1.0000, red: 0.0392, green: 0.4392, blue: 0.7020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Great Eastern Railway'
+	 short name: 'GER'
+	 color: Color(alpha: 1.0000, red: 0.2157, green: 0.6980, blue: 0.8863, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Glasgow and South Western Railway'
+	 short name: 'GSWR'
+	 color: Color(alpha: 1.0000, red: 0.9255, green: 0.4627, blue: 0.4863, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Great Western Railway'
+	 short name: 'GWR'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.5608, blue: 0.3098, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'London and North Western Railway'
+	 short name: 'LNWR'
+	 color: Color(alpha: 1.0000, red: 0.0392, green: 0.0392, blue: 0.0392, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'London and South Western Railway'
+	 short name: 'LSWR'
+	 color: Color(alpha: 1.0000, red: 0.9882, green: 0.9176, blue: 0.0941, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Lancashire and Yorkshire Railway'
+	 short name: 'LYR'
+	 color: Color(alpha: 1.0000, red: 0.7294, green: 0.6431, blue: 0.7961, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Midland Railway'
+	 short name: 'MR'
+	 color: Color(alpha: 1.0000, red: 0.8667, green: 0.0000, blue: 0.1882, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Manchester, Sheffield and Lincolnshire Railway'
+	 short name: 'MSLR'
+	 color: Color(alpha: 1.0000, red: 0.5333, green: 0.1020, blue: 0.1176, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'North British Railway'
+	 short name: 'NBR'
+	 color: Color(alpha: 1.0000, red: 0.9216, green: 0.4353, blue: 0.0549, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'North Eastern Railway'
+	 short name: 'NER'
+	 color: Color(alpha: 1.0000, red: 0.4824, green: 0.6941, blue: 0.2157, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'South Wales Railway'
+	 short name: 'SWR'
+	 color: Color(alpha: 1.0000, red: 0.6039, green: 0.6039, blue: 0.6157, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+	 jump: '4'
+	 min price active: null
+
+	 jump: '3'
+	 min price active: null
+
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+trains:
+	 name: '2+1'
+	 cost: 80
+	 order: 1
+
+	 name: '3+1'
+	 cost: 200
+	 order: 2
+
+	 name: '4+2'
+	 cost: 300
+	 order: 3
+
+	 name: '5+2'
+	 cost: 500
+	 order: 4
+
+	 name: '4X'
+	 cost: 550
+	 order: 5
+
+	 name: '5X'
+	 cost: 650
+	 order: 6
+
+	 name: '6X'
+	 cost: 700
+	 order: 7
+
+assets:
+	 name: 'London & Birmingham'
+	 short name: 'LB'
+	 worth: 40
+
+	 name: 'Arbroath & Forfar'
+	 short name: 'AF'
+	 worth: 30
+
+	 name: 'Great Northern'
+	 short name: 'GN'
+	 worth: 70
+
+	 name: 'Stockton & Darlington'
+	 short name: 'SD'
+	 worth: 35
+
+	 name: 'Liverpool & Manchester'
+	 short name: 'LM'
+	 worth: 45
+
+	 name: 'Leicester & Swannington'
+	 short name: 'LS'
+	 worth: 30
+
+	 name: 'Taff Vale'
+	 short name: 'TV'
+	 worth: 60
+
+	 name: 'Maryport & Carlisle'
+	 short name: 'MC'
+	 worth: 50
+
+	 name: 'Chester & Holyhead'
+	 short name: 'CH'
+	 worth: 30
+
+asset classes:

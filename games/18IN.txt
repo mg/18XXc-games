@@ -1,0 +1,254 @@
+Name: '18IN: Railways Across Indiana'
+bggId: 273586
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [15, 20, 25, 27, 30, 40, 50, 55, 60, 65, 70, 75, 80, 90, 100, 110, 120, 140, 160, 180, 200, 225, 250, 275, 300, 325, 350, 400, 450, 500, 550, 600]
+par values: [70, 75, 80, 90, 100, 110, 120, 140, 200, 250]
+percent to float: 0.5
+stocks to float: null
+floating structures: [0, ]
+bank pool: 0.5
+loan value: 200
+max loans: 5
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Major'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Minor'
+	 order: '2'
+	 primary stock: 'null'
+	 common stock: '0.5'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.0'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Chicago & Eastern Illinois Railroad'
+	 short name: 'C&EI'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'New York Central Railroad'
+	 short name: 'NYC'
+	 color: Color(alpha: 1.0000, red: 0.5020, green: 0.5020, blue: 0.5020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'New York, Chicago & St. Louis Railroad'
+	 short name: 'NKP'
+	 color: Color(alpha: 1.0000, red: 0.5020, green: 0.5020, blue: 0.5020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Lake Shore & Michigan Southern Railroad'
+	 short name: 'LS'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Wabash Railway'
+	 short name: 'WAB'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.8431, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Pennsylvania Railroad'
+	 short name: 'PRR'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.5020, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Chicago, Indianapolis & Louisville Railway'
+	 short name: 'Monon'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Cleveland, Cincinnati, Chicago & St. Louis Railway'
+	 short name: 'Big4'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.6471, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Buffalo, Cleveland & Chicago Railway'
+	 short name: 'C'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Lake Erie, Wabash & St. Louis Railroad'
+	 short name: 'W'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'New Albany & Salem Railroad'
+	 short name: 'A'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Chicago & Indianapolis Air Line Railway'
+	 short name: 'I'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Cincinnati, Hamilton & Indianapolis Railroad'
+	 short name: 'H'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Chicago, Danville & Vincennes Railroad'
+	 short name: 'V'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Evansville, Terre Haute & Chicago Railroad'
+	 short name: 'E'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Northern Indiana & Chicago Railroad'
+	 short name: 'N'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Indianapolis and Bellefontaine Railroad'
+	 short name: 'D'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Indianapolis, Pittsburg & Columbus Railroad'
+	 short name: 'P'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Indiana, Danville & Western Railroad'
+	 short name: 'G'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Toledo, St. Louis & Western Railroad'
+	 short name: 'T'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'LaFayette, Muncie and Bloomington Railroad'
+	 short name: 'M'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Indiana, Bloomington & Western Railroad'
+	 short name: 'B'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Indianapolis & St. Louis Railway'
+	 short name: 'R'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Cincinnati, Lafayette & Chicago Railroad'
+	 short name: 'F'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2'
+	 cost: 100
+	 order: 1
+
+	 name: '3'
+	 cost: 200
+	 order: 2
+
+	 name: 'T'
+	 cost: 125
+	 order: 3
+
+	 name: '4'
+	 cost: 300
+	 order: 4
+
+	 name: '5'
+	 cost: 400
+	 order: 5
+
+	 name: '6'
+	 cost: 600
+	 order: 6
+
+	 name: '8'
+	 cost: 850
+	 order: 7
+
+	 name: '5D'
+	 cost: 1200
+	 order: 8
+
+assets:
+	 name: 'Indiana Harbor Belt Railroad'
+	 short name: 'IHB'
+	 worth: 45
+
+	 name: 'Ports of Indiana'
+	 short name: 'Port'
+	 worth: 60
+
+	 name: 'Lima Locomotive Works'
+	 short name: 'Lima'
+	 worth: 120
+
+	 name: 'Union Traction Company of Indiana'
+	 short name: 'Union'
+	 worth: 180
+
+asset classes:

@@ -1,0 +1,241 @@
+Name: '18RoyalGorge: The Rails of Fremont County'
+bggId: 381671
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [30, 35, 40, 45, 50, 55, 60, 65, 70, 80, 90, 100, 110, 120, 130, 145, 160, 180, 200, 220, 240, 260, 280, 310, 340, 380, 420, 460]
+par values: [60, 65, 70, 80, 90, 100, 110, 120, 130, 145, 160, 180]
+percent to float: 0.2
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Railway'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Metal Company'
+	 order: '2'
+	 primary stock: 'null'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Denver & Rio Grande Western'
+	 short name: 'RG'
+	 color: Color(alpha: 1.0000, red: 0.8000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Santa Fe Railroad'
+	 short name: 'SF'
+	 color: Color(alpha: 1.0000, red: 0.4196, green: 0.1843, blue: 0.6275, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Kansas Pacific Railway'
+	 short name: 'KP'
+	 color: Color(alpha: 1.0000, red: 0.5020, green: 0.5020, blue: 0.5020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Denver, South Park & Pacific Railroad'
+	 short name: 'SPP'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.5333, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Pueblo and Arkansas Valley Railroad'
+	 short name: 'PAV'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.4000, blue: 0.8000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Denver & New Orleans'
+	 short name: 'NO'
+	 color: Color(alpha: 1.0000, red: 0.1020, green: 0.1020, blue: 0.1020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Colorado Midland Railway'
+	 short name: 'CM'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.6000, blue: 0.2000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Silverton Railway'
+	 short name: 'S'
+	 color: Color(alpha: 1.0000, red: 0.8784, green: 0.8784, blue: 0.8784, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Florence & Cripple Creek Railroad'
+	 short name: 'FCC'
+	 color: Color(alpha: 1.0000, red: 0.8314, green: 0.6863, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Colorado Springs & Cripple Creek District'
+	 short name: 'CSCC'
+	 color: Color(alpha: 1.0000, red: 0.1765, green: 0.5255, blue: 0.3490, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Colorado & Southern'
+	 short name: 'CS'
+	 color: Color(alpha: 1.0000, red: 0.2000, green: 0.2000, blue: 0.2000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Colorado Fuel & Iron'
+	 short name: 'CF&I'
+	 color: Color(alpha: 1.0000, red: 0.4000, green: 0.4000, blue: 0.4000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Victor Gold Company'
+	 short name: 'VGC'
+	 color: Color(alpha: 1.0000, red: 0.7843, green: 0.6078, blue: 0.2353, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+	 jump: '3'
+	 min price active: null
+
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+trains:
+	 name: '2+'
+	 cost: 80
+	 order: 1
+
+	 name: '3+'
+	 cost: 180
+	 order: 2
+
+	 name: '4+'
+	 cost: 400
+	 order: 3
+
+	 name: '5+'
+	 cost: 500
+	 order: 4
+
+	 name: '6x2'
+	 cost: 650
+	 order: 5
+
+assets:
+	 name: 'St. Cloud Hotel'
+	 short name: 'Y1'
+	 worth: 50
+
+	 name: 'Ghost Town Tour Co.'
+	 short name: 'Y2'
+	 worth: 45
+
+	 name: 'Coal Creek Mines'
+	 short name: 'Y3'
+	 worth: 40
+
+	 name: 'William Palmer'
+	 short name: 'Y4'
+	 worth: 75
+
+	 name: 'Colorado State Prison'
+	 short name: 'Y5'
+	 worth: 70
+
+	 name: 'Local Jeweler'
+	 short name: 'Y6'
+	 worth: 20
+
+	 name: 'Doc Holliday'
+	 short name: 'G1'
+	 worth: 55
+
+	 name: '13lb Gold Nugget'
+	 short name: 'G2'
+	 worth: 40
+
+	 name: 'Hanging Bridge Lease'
+	 short name: 'G3'
+	 worth: 50
+
+	 name: 'Florence Oil Fields'
+	 short name: 'G4'
+	 worth: 75
+
+	 name: 'Metals Investor'
+	 short name: 'G5'
+	 worth: 25
+
+	 name: 'Coal Depot'
+	 short name: 'G6'
+	 worth: 10
+
+	 name: 'Silver Mines'
+	 short name: 'B1'
+	 worth: 70
+
+	 name: 'Sulphur Springs'
+	 short name: 'B2'
+	 worth: 50
+
+	 name: 'Steel Depot'
+	 short name: 'B3'
+	 worth: 55
+
+	 name: 'Gold Miner'
+	 short name: 'B4'
+	 worth: 20
+
+	 name: 'Track Engineer'
+	 short name: 'B5'
+	 worth: 60
+
+	 name: 'U.S. Mint Worker'
+	 short name: 'B6'
+	 worth: 40
+
+asset classes:

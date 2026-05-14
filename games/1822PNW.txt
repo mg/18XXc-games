@@ -1,0 +1,332 @@
+Name: '1822PNW: The Railways of the Pacific Northwest'
+bggId: 360242
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 120, 140, 160]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [40, 50, 55, 60, 65, 70, 75, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200, 220, 245, 270, 300, 330, 360, 400, 450, 500, 550, 600]
+par values: [50, 55, 60, 65, 70, 75, 80, 90, 100]
+percent to float: null
+stocks to float: null
+floating structures: [0, ]
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.Custom
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+	 id: '1'
+	 name: 'Major'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '2'
+	 name: 'Minor'
+	 order: '2'
+	 primary stock: 'null'
+	 common stock: '1.0'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.0'
+	 percent to float: '1.0'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '3'
+	 name: 'Regional'
+	 order: '3'
+	 primary stock: 'null'
+	 common stock: '1.0'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.0'
+	 percent to float: '1.0'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '0'
+	 name: '20% float'
+	 order: '4'
+	 primary stock: 'null'
+	 common stock: 'null'
+	 min ownership: 'null'
+	 max ownership: 'null'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.2'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Northern Pacific Railway'
+	 short name: 'NP'
+	 color: Color(alpha: 1.0000, red: 0.1333, green: 0.1176, blue: 0.1255, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, , 0, ]
+
+	 name: 'Canadian Pacific Railway'
+	 short name: 'CPR'
+	 color: Color(alpha: 1.0000, red: 0.9373, green: 0.1137, blue: 0.1412, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, , 0, ]
+
+	 name: 'Great Northern Railway'
+	 short name: 'GNR'
+	 color: Color(alpha: 1.0000, red: 0.4196, green: 0.8118, blue: 0.9686, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, , 0, ]
+
+	 name: 'Oregon Railroad and Navigation Company'
+	 short name: 'ORNC'
+	 color: Color(alpha: 1.0000, red: 0.1882, green: 0.4706, blue: 0.7569, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, , 0, ]
+
+	 name: 'Spokane, Portland, and Seattle Railway'
+	 short name: 'SPS'
+	 color: Color(alpha: 1.0000, red: 0.5529, green: 0.0235, blue: 0.1059, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, , 0, ]
+
+	 name: 'Chicago, Milwaukee and Puget Sound'
+	 short name: 'CMPS'
+	 color: Color(alpha: 1.0000, red: 0.9647, green: 0.6078, blue: 0.1137, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, , 0, ]
+
+	 name: 'Seattle and Walla Walla Railroad'
+	 short name: 'SWW'
+	 color: Color(alpha: 1.0000, red: 0.1373, green: 0.5216, blue: 0.2549, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, , 0, ]
+
+	 name: 'Pacific Great Eastern Railway'
+	 short name: '1'
+	 color: Color(alpha: 1.0000, red: 0.9373, green: 0.1137, blue: 0.1412, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Spokane & British Columbia Railway'
+	 short name: '2'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Bellingham Bay & British Columbia Railroad'
+	 short name: '3'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Brewster & Davenport Railroad'
+	 short name: '4'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Idaho & Washington Northern Railway'
+	 short name: '5'
+	 color: Color(alpha: 1.0000, red: 0.4196, green: 0.8118, blue: 0.9686, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Port Townsend and Southern Railroad'
+	 short name: '6'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Spokane Falls and Northern Railway'
+	 short name: '7'
+	 color: Color(alpha: 1.0000, red: 0.9647, green: 0.6078, blue: 0.1137, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Puget Sound Shore Railroad'
+	 short name: '8'
+	 color: Color(alpha: 1.0000, red: 0.1373, green: 0.5216, blue: 0.2549, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Wenatchee Valley Railroad'
+	 short name: '9'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Tacoma, Olympia and Grays Harbor Railroad Company'
+	 short name: '10'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Aberdeen & Oakville Railroad'
+	 short name: '11'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Connell Northern Railway Company'
+	 short name: '12'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'North Yakima Valley Railroad'
+	 short name: '13'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Camas Prairie Railroad'
+	 short name: '14'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Ilwaco Railroad Company'
+	 short name: '15'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Astoria and Columbia River Railroad Company'
+	 short name: '16'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Oregon Central Railroad'
+	 short name: '17'
+	 color: Color(alpha: 1.0000, red: 0.5529, green: 0.0235, blue: 0.1059, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Portland and Willamette Valley Railway'
+	 short name: '18'
+	 color: Color(alpha: 1.0000, red: 0.1882, green: 0.4706, blue: 0.7569, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Cascade Portage Railway'
+	 short name: '19'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Walla Walla Valley Railway'
+	 short name: '20'
+	 color: Color(alpha: 1.0000, red: 0.1333, green: 0.1176, blue: 0.1255, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'The Great Southern Railroad'
+	 short name: '21'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Calgary Regional Railway'
+	 short name: 'A'
+	 color: Color(alpha: 1.0000, red: 0.5020, green: 0.5020, blue: 0.5020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Tacoma Regional Railway'
+	 short name: 'B'
+	 color: Color(alpha: 1.0000, red: 0.5020, green: 0.5020, blue: 0.5020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Vancouver Regional Railway'
+	 short name: 'C'
+	 color: Color(alpha: 1.0000, red: 0.5020, green: 0.5020, blue: 0.5020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+route bonuses:
+	 label1: 'E'
+	 label2: 'null'
+	 add: null
+	 multiply: 2
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: 'L'
+	 cost: 60
+	 order: 1
+
+	 name: '2'
+	 cost: 120
+	 order: 2
+
+	 name: '3'
+	 cost: 200
+	 order: 3
+
+	 name: '4'
+	 cost: 300
+	 order: 4
+
+	 name: '5'
+	 cost: 500
+	 order: 5
+
+	 name: '6'
+	 cost: 600
+	 order: 6
+
+	 name: '7'
+	 cost: 750
+	 order: 7
+
+	 name: 'E'
+	 cost: 1000
+	 order: 8
+
+assets:
+asset classes:

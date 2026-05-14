@@ -1,0 +1,228 @@
+Name: '18EU'
+bggId: 5684
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [40, 50, 60, 65, 70, 75, 82, 90, 100, 110, 122, 135, 150, 165, 180, 200, 225, 245, 270, 300, 330, 360, 400]
+par values: [70, 75, 82, 90, 100]
+percent to float: 0.5
+stocks to float: null
+floating structures: [0, ]
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Major'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Minor'
+	 order: '2'
+	 primary stock: 'null'
+	 common stock: '1.0'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.0'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Belgian National Railways'
+	 short name: 'BNR'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.7961, blue: 0.0196, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Dutch Railways'
+	 short name: 'DR'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.9490, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Italian State Railways'
+	 short name: 'FS'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.6510, blue: 0.3176, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Royal Bavarian State Railroad'
+	 short name: 'RBSR'
+	 color: Color(alpha: 1.0000, red: 0.5569, green: 0.8471, blue: 0.9725, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Royal Prussian Railway'
+	 short name: 'RPR'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.6431, blue: 0.8941, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Austrian Imperial Royal State'
+	 short name: 'AIRS'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.9882, blue: 0.8353, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'SNCF'
+	 short name: 'SNCF'
+	 color: Color(alpha: 1.0000, red: 0.9294, green: 0.1098, blue: 0.1412, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'German State Railways'
+	 short name: 'GSR'
+	 color: Color(alpha: 1.0000, red: 0.1373, green: 0.1216, blue: 0.1255, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Chemin de Fer du Nord'
+	 short name: 'M1'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'État Belge'
+	 short name: 'M2'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Paris-Lyon-Méditerranée'
+	 short name: 'M3'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Leipzig-Dresdner-Bahn'
+	 short name: 'M4'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Ferrovia Adriatica'
+	 short name: 'M5'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Kaiser-Ferdinand-Nordbahn'
+	 short name: 'M6'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Berlin-Potsdamer-Bahn'
+	 short name: 'M7'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Ungarische Staatsbahn'
+	 short name: 'M8'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Berlin-Stettiner-Bahn'
+	 short name: 'M9'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Strade Ferrate Alta Italia'
+	 short name: 'M10'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Südbahn'
+	 short name: 'M11'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Hollandsche Maatschappij'
+	 short name: 'M12'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Ludwigsbahn'
+	 short name: 'M13'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Ligne Strasbourg-Bâle'
+	 short name: 'M14'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Grand Central'
+	 short name: 'M15'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2'
+	 cost: 100
+	 order: 1
+
+	 name: '3'
+	 cost: 200
+	 order: 2
+
+	 name: 'P'
+	 cost: 100
+	 order: 3
+
+	 name: '4'
+	 cost: 300
+	 order: 4
+
+	 name: '5'
+	 cost: 500
+	 order: 5
+
+	 name: '6'
+	 cost: 600
+	 order: 6
+
+	 name: '8'
+	 cost: 800
+	 order: 7
+
+assets:
+asset classes:

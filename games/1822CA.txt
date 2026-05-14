@@ -1,0 +1,408 @@
+Name: '1822CA: The Railways of Canada'
+bggId: 253607
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 120, 140, 160]
+max or: 2
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 200, 220, 245, 270, 300, 330, 360, 400, 450, 500, 550, 600, 650, 700]
+par values: [50, 60, 70, 80, 90, 100]
+percent to float: null
+stocks to float: null
+floating structures: [0, , 1, ]
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.Custom
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+	 id: '2'
+	 name: 'Major'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '3'
+	 name: 'Minor'
+	 order: '2'
+	 primary stock: 'null'
+	 common stock: '1.0'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.0'
+	 percent to float: '1.0'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '4'
+	 name: 'CPR'
+	 order: '3'
+	 primary stock: 'null'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.1'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '0'
+	 name: '20% float'
+	 order: '4'
+	 primary stock: 'null'
+	 common stock: 'null'
+	 min ownership: 'null'
+	 max ownership: 'null'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.2'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: '10% float'
+	 order: '5'
+	 primary stock: 'null'
+	 common stock: 'null'
+	 min ownership: 'null'
+	 max ownership: 'null'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.1'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Canadian Northern Railway'
+	 short name: 'CNoR'
+	 color: Color(alpha: 1.0000, red: 0.6235, green: 0.8078, blue: 0.3882, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Canadian Pacific Railway'
+	 short name: 'CPR'
+	 color: Color(alpha: 1.0000, red: 0.9294, green: 0.1412, blue: 0.1647, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [4, , 1, ]
+
+	 name: 'Great North West Railway'
+	 short name: 'GNWR'
+	 color: Color(alpha: 1.0000, red: 0.5529, green: 0.8471, blue: 0.9725, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Grand Trunk Railway'
+	 short name: 'GT'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Grand Trunk Pacific Railway'
+	 short name: 'GTP'
+	 color: Color(alpha: 1.0000, red: 0.9569, green: 0.4902, blue: 0.1255, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Great Western Railway'
+	 short name: 'GWR'
+	 color: Color(alpha: 1.0000, red: 0.2235, green: 0.3529, blue: 0.6588, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Intercolonial Railway'
+	 short name: 'ICR'
+	 color: Color(alpha: 1.0000, red: 0.9333, green: 0.9137, blue: 0.1176, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'National Transcontinental Railway'
+	 short name: 'NTR'
+	 color: Color(alpha: 1.0000, red: 0.6039, green: 0.4039, blue: 0.2000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Pacific Great Eastern Railway'
+	 short name: 'PGE'
+	 color: Color(alpha: 1.0000, red: 0.0980, green: 0.6157, blue: 0.2902, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Québec, Montréal, Ottawa and Occidental Railway'
+	 short name: 'QMOO'
+	 color: Color(alpha: 1.0000, red: 0.4980, green: 0.2196, blue: 0.5059, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, , 0, ]
+
+	 name: 'Dominion Atlantic Railway'
+	 short name: 'M1'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'European & North American Railway'
+	 short name: 'M2'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Québec & New Brunswick Railway'
+	 short name: 'M3'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Québec Central Railway'
+	 short name: 'M4'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'North Shore Railway'
+	 short name: 'M5'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Champlain & St Lawrence Railroad'
+	 short name: 'M6'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Montréal & Lachine Railway'
+	 short name: 'M7'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Bytown & Prescott Railway'
+	 short name: 'M8'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Canada Atlantic Railway'
+	 short name: 'M9'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Midland Railway'
+	 short name: 'M10'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Canada Southern Railway'
+	 short name: 'M11'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Toronto, Hamilton & Buffalo Railway'
+	 short name: 'M12'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ontario & Québec Railway'
+	 short name: 'M13'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'London & Port Stanley Railway'
+	 short name: 'M14'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Lake Nipissing & James' Bay Railway'
+	 short name: 'M15'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Windsor, Chatham & London Railway'
+	 short name: 'M16'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Canada Central Railway'
+	 short name: 'M17'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Ontario & Abitibi Railway'
+	 short name: 'M18'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Algoma Central Railway'
+	 short name: 'M19'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Port Arthur, Duluth & Western Railway'
+	 short name: 'M20'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Winnipeg & Atlantic Railway'
+	 short name: 'M21'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Winnipeg & Hudson's Bay Railway'
+	 short name: 'M22'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Prince Albert & North Saskatchewan Railway'
+	 short name: 'M23'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Saskatoon & Northern Railway'
+	 short name: 'M24'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Northern Empire Railway'
+	 short name: 'M25'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Calgary & Fort McMurray Railway'
+	 short name: 'M26'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Athabaska Northern Railway'
+	 short name: 'M27'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Kamloops & Yellow Head Pass Railway'
+	 short name: 'M28'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Kootenay, Cariboo & Pacific Railway'
+	 short name: 'M29'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+	 name: 'Pacific Northern & Omineca Railway'
+	 short name: 'M30'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [3, ]
+
+route bonuses:
+	 label1: 'E'
+	 label2: 'null'
+	 add: null
+	 multiply: 2
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: 'L'
+	 cost: 60
+	 order: 1
+
+	 name: '2'
+	 cost: 120
+	 order: 2
+
+	 name: '3'
+	 cost: 200
+	 order: 3
+
+	 name: '4'
+	 cost: 300
+	 order: 4
+
+	 name: '5'
+	 cost: 500
+	 order: 5
+
+	 name: '6'
+	 cost: 600
+	 order: 6
+
+	 name: '7'
+	 cost: 750
+	 order: 7
+
+	 name: 'E'
+	 cost: 1000
+	 order: 8
+
+assets:
+asset classes:
+	 name: 'Concession'
+	 worth: 100
+	 max count: 10
+

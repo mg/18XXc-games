@@ -1,0 +1,112 @@
+Name: '18Texas'
+bggId: 407694
+revenue stops: [10, 20, 30, 40, 50, 60, 80]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [40, 50, 60, 65, 70, 75, 82, 90, 100, 110, 122, 135, 150, 165, 180, 200, 220, 245, 270, 300, 330, 360, 400]
+par values: [70, 75, 82, 90, 100]
+percent to float: 0.5
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+companies:
+	 name: 'Missouri-Kansas-Texas Railroad'
+	 short name: 'MKT'
+	 color: Color(alpha: 1.0000, red: 0.1373, green: 0.5804, blue: 0.3294, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Missouri Pacific Railroad'
+	 short name: 'MPR'
+	 color: Color(alpha: 1.0000, red: 0.8471, green: 0.1176, blue: 0.2392, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'St. Louis Southwestern Railway'
+	 short name: 'SLS'
+	 color: Color(alpha: 1.0000, red: 0.2157, green: 0.3255, blue: 0.5137, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'San Antonio and Aransas Pass Railway'
+	 short name: 'SA&AP'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Souther Pacific Railroad'
+	 short name: 'SPR'
+	 color: Color(alpha: 1.0000, red: 0.9569, green: 0.5137, blue: 0.1294, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Texas and Pacific Railway'
+	 short name: 'TPR'
+	 color: Color(alpha: 1.0000, red: 0.6196, green: 0.3647, blue: 0.5647, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: '2'
+	 cost: 100
+	 order: 0
+
+	 name: '3'
+	 cost: 200
+	 order: 0
+
+	 name: '4'
+	 cost: 300
+	 order: 0
+
+	 name: '5'
+	 cost: 500
+	 order: 0
+
+	 name: '6'
+	 cost: 600
+	 order: 0
+
+	 name: 'D'
+	 cost: 800
+	 order: 0
+
+assets:
+	 name: 'P1: Buffalo Bayou, Brazos and Colorado Railroad Company'
+	 short name: 'BB-B&C'
+	 worth: 50
+
+	 name: 'P2: Galveston and Red River Railway Company'
+	 short name: 'G&RRRC'
+	 worth: 80
+
+	 name: 'P3: Jay Gould'
+	 short name: 'JG'
+	 worth: 200
+
+	 name: 'P4: International–Great Northern Railroad'
+	 short name: 'I&GN'
+	 worth: 210
+
+	 name: 'P5: New Orleans Pacific Railroad'
+	 short name: 'NOPR'
+	 worth: 240
+
+asset classes:

@@ -1,0 +1,145 @@
+Name: '1860: Railways of the Isle of Wight'
+bggId: 12750
+revenue stops: [10, 20, 30, 40, 50, 60]
+max or: 4
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+stock prices: [7, 14, 20, 26, 31, 36, 40, 44, 47, 50, 52, 54, 56, 58, 60, 62, 65, 68, 71, 74, 78, 82, 86, 90, 95, 100, 105, 110, 116, 122, 128, 134, 142, 150, 158, 166, 174, 182, 191, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340]
+par values: []
+percent to float: null
+stocks to float: null
+floating structures: [0, , 1, ]
+bank pool: 1.0
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: [DisableCalculator.EmergencyTrainPurchase]
+corporate structures:
+	 id: '0'
+	 name: 'Major'
+	 order: '1'
+	 primary stock: 'null'
+	 common stock: 'null'
+	 min ownership: 'null'
+	 max ownership: 'null'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'true'
+	 par values: '[52, 58, 62, 68, 74, 82, 90, 100]'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Re-float'
+	 order: '2'
+	 primary stock: 'null'
+	 common stock: 'null'
+	 min ownership: 'null'
+	 max ownership: 'null'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'true'
+	 par values: '[40, 44, 47, 50, 52, 56, 60, 65, 71, 78, 86, 95]'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Cowes & Newport'
+	 short name: 'C&N'
+	 color: Color(alpha: 1.0000, red: 0.2784, green: 0.4980, blue: 0.6667, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Isle Of Wight'
+	 short name: 'IOW'
+	 color: Color(alpha: 1.0000, red: 0.7686, green: 0.2039, blue: 0.1765, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Isle of Wight, Newport Junction'
+	 short name: 'IWNJ'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Freshwater, Yarmouth & Newport'
+	 short name: 'FYN'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.3216, blue: 0.1294, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Brading Harbour Improvement & Railway'
+	 short name: 'BHI&R'
+	 color: Color(alpha: 1.0000, red: 0.4431, green: 0.0000, blue: 0.4392, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Newport, Godshill & St. Lawrence'
+	 short name: 'NGStL'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.8078, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Shanklin & Chale'
+	 short name: 'S&C'
+	 color: Color(alpha: 1.0000, red: 0.2706, green: 0.1490, blue: 0.3961, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Ventor, Yarmouth & South Coast'
+	 short name: 'VYSC'
+	 color: Color(alpha: 1.0000, red: 0.5490, green: 0.7569, blue: 0.2510, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+	 jump: '4'
+	 min price active: null
+
+	 jump: '3'
+	 min price active: null
+
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+assets:
+	 name: 'Brading Harbour Company'
+	 short name: 'BHC'
+	 worth: 30
+
+	 name: 'Yarmouth Harbour Company'
+	 short name: 'YHC'
+	 worth: 50
+
+	 name: 'Cowen Marina and Harbowl'
+	 short name: 'CMH'
+	 worth: 90
+
+	 name: 'Ryde Pier & Shipping Company'
+	 short name: 'RP&SC'
+	 worth: 130
+
+	 name: 'Fishourne Ferry Company'
+	 short name: 'FFC'
+	 worth: 200
+
+asset classes:

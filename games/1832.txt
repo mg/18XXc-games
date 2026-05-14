@@ -1,0 +1,160 @@
+Name: '1832: The South'
+bggId: 23421
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [10, 20, 30, 40, 50, 55, 60, 64, 68, 72, 76, 82, 90, 100, 110, 120, 140, 160, 180, 200, 225, 250, 275, 300, 325, 350, 375, 400]
+par values: [68, 72, 76, 82, 90, 100]
+percent to float: 0.6
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Partial
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Major'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.6'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Atlantic Coast Line Railroad'
+	 short name: 'ACL'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.7529, blue: 0.7961, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Atlanta & West Point Railroad'
+	 short name: 'A&WP'
+	 color: Color(alpha: 1.0000, red: 0.5020, green: 0.0000, blue: 0.5020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Seaboard Air Line Railway'
+	 short name: 'SAL'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.5490, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Norfolk & Western Railway'
+	 short name: 'N&W'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Central of Georgia Railway'
+	 short name: 'CoG'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.5020, blue: 0.5020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Louisville & Nashville Railroad'
+	 short name: 'L&N'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Georgia Railroad'
+	 short name: 'GRR'
+	 color: Color(alpha: 1.0000, red: 0.6784, green: 0.8471, blue: 0.9020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Gulf, Mobile & Ohio Railroad'
+	 short name: 'GM&O'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Southern Railway'
+	 short name: 'SOU'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.5020, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Florida East Coast Railway'
+	 short name: 'FEC'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2'
+	 cost: 80
+	 order: 0
+
+	 name: '3'
+	 cost: 180
+	 order: 0
+
+	 name: '4'
+	 cost: 300
+	 order: 0
+
+	 name: '5'
+	 cost: 450
+	 order: 0
+
+	 name: '6'
+	 cost: 630
+	 order: 0
+
+	 name: '8'
+	 cost: 800
+	 order: 0
+
+	 name: '10'
+	 cost: 950
+	 order: 0
+
+	 name: '12'
+	 cost: 1100
+	 order: 0
+
+assets:
+	 name: 'Carolina Stagecoach Company'
+	 short name: 'P1'
+	 worth: 20
+
+	 name: 'Cotton Warehouse'
+	 short name: 'P2'
+	 worth: 40
+
+	 name: 'Atlantic Shipping'
+	 short name: 'P3'
+	 worth: 50
+
+	 name: 'London Investment'
+	 short name: 'P4'
+	 worth: 70
+
+	 name: 'West Virginia Coalfields'
+	 short name: 'P5'
+	 worth: 80
+
+	 name: 'Central Railroad & Canal'
+	 short name: 'P7'
+	 worth: 200
+
+asset classes:

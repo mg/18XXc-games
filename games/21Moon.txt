@@ -1,0 +1,140 @@
+Name: '21Moon: Moon Truckin''
+bggId: 381869
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5]
+stock prices: [40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 175, 190, 195, 200, 215, 220, 235, 240, 250, 260, 265, 275, 285, 295, 300, 315, 325, 330, 345, 360, 395, 430]
+par values: [60, 70, 80, 90]
+percent to float: 0.5
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: ''
+	 order: '1'
+	 primary stock: 'null'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Suijin Water Plants'
+	 short name: 'SWP'
+	 color: Color(alpha: 1.0000, red: 0.1294, green: 0.5882, blue: 0.9529, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Hematite Low-G Mining and Quarry'
+	 short name: 'HMQ'
+	 color: Color(alpha: 1.0000, red: 0.9569, green: 0.2627, blue: 0.2118, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Varuna Hydroculture'
+	 short name: 'VH'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.9216, blue: 0.2314, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'International Tritium Consortium'
+	 short name: 'ITC'
+	 color: Color(alpha: 1.0000, red: 0.6118, green: 0.1529, blue: 0.6902, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Shamsum Solar Farms'
+	 short name: 'SSF'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.5961, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Lunar Geodynamics'
+	 short name: 'LG'
+	 color: Color(alpha: 1.0000, red: 0.2980, green: 0.6863, blue: 0.3137, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Kiviuq Rovertech'
+	 short name: 'KR'
+	 color: Color(alpha: 1.0000, red: 0.4745, green: 0.3333, blue: 0.2824, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+route bonuses:
+	 label1: 'Terminal'
+	 label2: '+30'
+	 add: 30
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: 'E-W'
+	 label2: '+40'
+	 add: 40
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+	 label1: '+20'
+	 label2: 'token'
+	 add: 20
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+	 jump: '2'
+	 min price active: null
+
+	 jump: '1'
+	 min price active: null
+
+	 jump: '0'
+	 min price active: null
+
+trains:
+	 name: '2'
+	 cost: 120
+	 order: 1
+
+	 name: '3'
+	 cost: 150
+	 order: 2
+
+	 name: '4'
+	 cost: 240
+	 order: 3
+
+	 name: '5'
+	 cost: 500
+	 order: 4
+
+	 name: '6'
+	 cost: 540
+	 order: 5
+
+	 name: '10'
+	 cost: 730
+	 order: 6
+
+assets:
+asset classes:

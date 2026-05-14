@@ -1,0 +1,280 @@
+Name: '18España'
+bggId: 413525
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 126, 132, 138, 144, 151, 158, 165, 172, 180, 188, 196, 204, 213, 222, 231, 240, 250, 260, 270, 280, 295, 310, 325, 340, 360, 380, 400]
+par values: [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100]
+percent to float: 0.4
+stocks to float: null
+floating structures: [0, , 1, ]
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Major (40%)'
+	 order: '0'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.4'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Major (60%)'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.6'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '2'
+	 name: 'Minor'
+	 order: '2'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Compañía de los Caminos de Hierro del Norte de España'
+	 short name: 'N'
+	 color: Color(alpha: 1.0000, red: 0.7608, green: 0.5686, blue: 0.2157, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Compañía de los ferrocarriles de Madrid a Zaragoza y Alicante'
+	 short name: 'MZA'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.8353, blue: 0.1490, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Compañía de los Ferrocarriles Andaluces'
+	 short name: 'A'
+	 color: Color(alpha: 1.0000, red: 0.7176, green: 0.3451, blue: 0.2078, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Compañía de los Caminos de Hierro de Ciudad Real a Badajoz'
+	 short name: 'CRB'
+	 color: Color(alpha: 1.0000, red: 0.9137, green: 0.4196, blue: 0.1569, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Compañía de los ferrocarriles de Madrid a Cáceres y Portugal'
+	 short name: 'MCP'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.6039, blue: 0.8353, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Compañía de los Ferrocarriles de Zaragoza a Pamplona y Barcelona'
+	 short name: 'ZPB'
+	 color: Color(alpha: 1.0000, red: 0.8549, green: 0.0392, blue: 0.1490, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Ferrocarril de Santander a Bilbao'
+	 short name: 'FdSB'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.6039, blue: 0.8353, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Compañía de los Ferrocarriles Económicos de Asturias'
+	 short name: 'CFEA'
+	 color: Color(alpha: 1.0000, red: 0.9137, green: 0.4196, blue: 0.1569, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Compañía del Ferrocarril de Langreo en Asturias'
+	 short name: 'CFLG'
+	 color: Color(alpha: 1.0000, red: 0.8549, green: 0.0392, blue: 0.1490, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Ferrocarril de La Robla'
+	 short name: 'FdLR'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.5686, blue: 0.2549, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Ferrocarril de Mérida a Sevilla'
+	 short name: 'MS'
+	 color: Color(alpha: 1.0000, red: 0.4902, green: 0.8000, blue: 0.8980, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Compañía del Ferrocarril de Córdoba a Málaga'
+	 short name: 'CM'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.5686, blue: 0.2549, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Compañía del Ferrocarril de Sevilla a Jerez y de Puerto Real a Cádiz'
+	 short name: 'SC'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.9412, blue: 0.0784, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Ferrocarril de Albacete a Cartagena'
+	 short name: 'AC'
+	 color: Color(alpha: 1.0000, red: 0.7176, green: 0.3451, blue: 0.2078, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Ferrocarril de Madrid a Zaragoza'
+	 short name: 'MZ'
+	 color: Color(alpha: 1.0000, red: 0.4941, green: 0.4980, blue: 0.4941, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Compañía del Ferrocarril de Zaragoza a Pamplona'
+	 short name: 'ZP'
+	 color: Color(alpha: 1.0000, red: 0.8510, green: 0.0000, blue: 0.4471, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Sociedad General de Ferrocarriles Vasco Asturiana'
+	 short name: 'SFVA'
+	 color: Color(alpha: 1.0000, red: 0.6784, green: 0.3255, blue: 0.6078, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Ferrocarril del Cantábrico'
+	 short name: 'FdC'
+	 color: Color(alpha: 1.0000, red: 0.9686, green: 0.5098, blue: 0.2627, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Great Southern of Spain Railway Company Limited'
+	 short name: 'GSSR'
+	 color: Color(alpha: 1.0000, red: 0.4275, green: 0.1137, blue: 0.4902, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Sociedad de los Ferrocarriles de Almansa a Valencia y Tarragona'
+	 short name: 'AVT'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Compañía de los Ferrocarriles de Tarragona a Barcelona y Francia'
+	 short name: 'TBF'
+	 color: Color(alpha: 1.0000, red: 0.2000, green: 0.5098, blue: 0.2588, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Compañía de los Caminos de Hierro del Sur de España'
+	 short name: 'CSE'
+	 color: Color(alpha: 1.0000, red: 0.9608, green: 0.7176, blue: 0.4627, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Ferrocarril de Madrid a Hendaya'
+	 short name: 'MH'
+	 color: Color(alpha: 1.0000, red: 0.9765, green: 0.8314, blue: 0.9804, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+	 name: 'Compañía del Ferrocarril Central de Aragón'
+	 short name: 'CA'
+	 color: Color(alpha: 1.0000, red: 0.9176, green: 0.9686, blue: 0.6902, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, , 1, ]
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2'
+	 cost: 100
+	 order: 0
+
+	 name: '3'
+	 cost: 200
+	 order: 0
+
+	 name: '4'
+	 cost: 300
+	 order: 0
+
+	 name: '5'
+	 cost: 500
+	 order: 0
+
+	 name: '6'
+	 cost: 600
+	 order: 0
+
+	 name: '8'
+	 cost: 800
+	 order: 0
+
+assets:
+	 name: 'La Habana – Güines'
+	 short name: 'P1'
+	 worth: 20
+
+	 name: 'Barcelona – Mataró'
+	 short name: 'P2'
+	 worth: 60
+
+	 name: 'Madrid – Aranjuez (El tren de la fresa)'
+	 short name: 'P3'
+	 worth: 70
+
+	 name: 'Alar del Rey – Santander'
+	 short name: 'P4'
+	 worth: 100
+
+	 name: 'La Maquinista'
+	 short name: 'P5'
+	 worth: 130
+
+	 name: 'Zafra – Huelva'
+	 short name: 'P6a'
+	 worth: 160
+
+	 name: 'Ferrocarril Vasco-Navarro'
+	 short name: 'P6b'
+	 worth: 160
+
+	 name: 'Ferrocarril de Carreño'
+	 short name: 'P7'
+	 worth: 170
+
+asset classes:

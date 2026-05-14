@@ -1,0 +1,211 @@
+Name: '18CZ: The Railway Comes To Czech Lands (Bohemia)'
+bggId: 163841
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80]
+max or: 3
+ownership: [0.1, 0.2, 0.25, 0.3, 0.4, 0.5, 0.6, 0.75]
+stock prices: [40, 45, 50, 53, 55, 58, 60, 63, 65, 68, 70, 75, 80, 85, 90, 96, 100, 105, 110, 115, 120, 126, 132, 138, 144, 151, 158, 165, 172, 180, 188, 196, 204, 213, 222, 231, 240, 250, 260, 275, 290, 305, 320, 335, 350, 370]
+par values: [50, 55, 60, 65, 70, 80, 90, 100, 110, 120]
+percent to float: 0.5
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.Custom
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Large'
+	 order: '1'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.7'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.6'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Medium'
+	 order: '2'
+	 primary stock: '0.4'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.6'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '2'
+	 name: 'Small'
+	 order: '3'
+	 primary stock: '0.5'
+	 common stock: '0.25'
+	 min ownership: 'null'
+	 max ownership: '0.75'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Bayrische Staatsbahn'
+	 short name: 'By'
+	 color: Color(alpha: 1.0000, red: 0.1922, green: 0.3882, blue: 0.6118, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'kk Staatsbahn'
+	 short name: 'kk'
+	 color: Color(alpha: 1.0000, red: 0.8510, green: 0.5255, blue: 0.2275, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Sächsische Eisenbahn'
+	 short name: 'Sx'
+	 color: Color(alpha: 1.0000, red: 0.8078, green: 0.0000, blue: 0.0941, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Aussig-Teplitzer Eisenbahn'
+	 short name: 'ATE'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.8078, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Böhmische Nordbahn'
+	 short name: 'BN'
+	 color: Color(alpha: 1.0000, red: 0.5686, green: 0.5569, blue: 0.5490, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Buschtehrader Eisenbahn'
+	 short name: 'BTE'
+	 color: Color(alpha: 1.0000, red: 0.6941, green: 0.8157, blue: 0.4902, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Österreichische Nordwestbahn'
+	 short name: 'NWB'
+	 color: Color(alpha: 1.0000, red: 0.9255, green: 0.9059, blue: 0.3255, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'Böhmische Commercialbahn'
+	 short name: 'BCB'
+	 color: Color(alpha: 1.0000, red: 0.9882, green: 0.5765, blue: 0.0118, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Eisenbahn Karlsbad-Johanngeorgenstadt'
+	 short name: 'EKJ'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 1.0000, blue: 1.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+	 name: 'Vereinigte Böhmerwaldbahnen'
+	 short name: 'VBW'
+	 color: Color(alpha: 1.0000, red: 0.0627, green: 0.4196, blue: 0.1294, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [2, ]
+
+route bonuses:
+	 label1: 'Home'
+	 label2: '+50'
+	 add: 50
+	 multiply: null
+	 divide: null
+	 add per stop: null
+
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2'
+	 cost: 70
+	 order: 1
+
+	 name: '2+2'
+	 cost: 80
+	 order: 2
+
+	 name: '3'
+	 cost: 120
+	 order: 3
+
+	 name: '3+3'
+	 cost: 180
+	 order: 4
+
+	 name: '3E'
+	 cost: 250
+	 order: 5
+
+	 name: '4'
+	 cost: 250
+	 order: 6
+
+	 name: '4+4'
+	 cost: 400
+	 order: 7
+
+	 name: '4E'
+	 cost: 350
+	 order: 8
+
+	 name: '5'
+	 cost: 350
+	 order: 9
+
+	 name: '5+5'
+	 cost: 500
+	 order: 10
+
+	 name: '5E'
+	 cost: 700
+	 order: 11
+
+	 name: '6E'
+	 cost: 800
+	 order: 12
+
+	 name: '8E'
+	 cost: 1000
+	 order: 13
+
+assets:
+asset classes:
+	 name: 'Small locals'
+	 worth: 120
+	 max count: 3
+
+	 name: 'Medium locals'
+	 worth: 120
+	 max count: 3
+
+	 name: 'Large locals'
+	 worth: 120
+	 max count: 3
+

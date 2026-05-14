@@ -1,0 +1,230 @@
+Name: '18Cuba'
+bggId: 355736
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6]
+stock prices: [50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 126, 132, 138, 144, 151, 158, 165, 172, 180, 188, 196, 204, 213, 222, 231, 240, 250, 260, 275, 290, 300]
+par values: [70, 75, 80, 85, 90, 95, 100]
+percent to float: 0.5
+stocks to float: null
+floating structures: [0, ]
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Major'
+	 order: '0'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.5'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+	 id: '1'
+	 name: 'Minor'
+	 order: '1'
+	 primary stock: '0.4'
+	 common stock: '0.2'
+	 min ownership: 'null'
+	 max ownership: '0.6'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: 'null'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: '[70, 75, 80, 85, 90, 95, 100]'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'FC del Oeste'
+	 short name: 'Oe'
+	 color: Color(alpha: 1.0000, red: 0.5451, green: 0.2706, blue: 0.0745, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'FC de Matanzas a Sabanillas'
+	 short name: 'MS'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.8431, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'FC Cienfuegos y Villa Clara'
+	 short name: 'CVC'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.3922, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'FC Nuevitas-Puerto Príncipe'
+	 short name: 'NPP'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.6471, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'FC Santiago de Cuba'
+	 short name: 'SdC'
+	 color: Color(alpha: 1.0000, red: 0.5294, green: 0.8078, blue: 0.9216, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'FC Las Tunas – Sancti Spiritus'
+	 short name: 'TSS'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'FC de Sancti Spiritus'
+	 short name: 'StSp'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'Florida East Coast Railroad'
+	 short name: 'FEC'
+	 color: Color(alpha: 1.0000, red: 0.5020, green: 0.0000, blue: 0.5020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [0, ]
+
+	 name: 'FC de Holguín a Gibara'
+	 short name: 'HG'
+	 color: Color(alpha: 1.0000, red: 0.5020, green: 0.5020, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'FC de Júcaro'
+	 short name: 'JU'
+	 color: Color(alpha: 1.0000, red: 1.0000, green: 0.7529, blue: 0.7961, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'FC Cubano de Hershey'
+	 short name: 'HY'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.5451, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'FC de Dubrocq'
+	 short name: 'DQ'
+	 color: Color(alpha: 1.0000, red: 0.5451, green: 0.5020, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'FC del Cobre'
+	 short name: 'CO'
+	 color: Color(alpha: 1.0000, red: 0.5647, green: 0.9333, blue: 0.5647, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+	 name: 'FC de Cárdenas a Soledad de Bemba'
+	 short name: 'CS'
+	 color: Color(alpha: 1.0000, red: 0.9608, green: 0.9608, blue: 0.8627, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: [1, ]
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2n'
+	 cost: 80
+	 order: 0
+
+	 name: '2'
+	 cost: 100
+	 order: 0
+
+	 name: '3n'
+	 cost: 160
+	 order: 0
+
+	 name: '3'
+	 cost: 200
+	 order: 0
+
+	 name: '3+'
+	 cost: 230
+	 order: 0
+
+	 name: '4n'
+	 cost: 260
+	 order: 0
+
+	 name: '4'
+	 cost: 300
+	 order: 0
+
+	 name: '4+'
+	 cost: 340
+	 order: 0
+
+	 name: '5n'
+	 cost: 380
+	 order: 0
+
+	 name: '5'
+	 cost: 500
+	 order: 0
+
+	 name: '5+'
+	 cost: 550
+	 order: 0
+
+	 name: '6'
+	 cost: 600
+	 order: 0
+
+	 name: '6+'
+	 cost: 660
+	 order: 0
+
+	 name: '8+'
+	 cost: 700
+	 order: 0
+
+	 name: '4D'
+	 cost: 800
+	 order: 0
+
+assets:
+	 name: 'Juan Tirry y Lacy'
+	 short name: 'C1'
+	 worth: 30
+
+	 name: 'José A. Ferrety'
+	 short name: 'C2'
+	 worth: 35
+
+	 name: 'Carlos Pedroso'
+	 short name: 'C3'
+	 worth: 40
+
+	 name: 'Domingo Herrera'
+	 short name: 'C4'
+	 worth: 50
+
+	 name: 'Andrés de Zayas'
+	 short name: 'C5'
+	 worth: 70
+
+	 name: 'Francisco Romero'
+	 short name: 'C6'
+	 worth: 80
+
+asset classes:

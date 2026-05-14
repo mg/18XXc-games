@@ -1,0 +1,204 @@
+Name: '1880: China'
+bggId: 69601
+revenue stops: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+max or: 3
+ownership: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+stock prices: [40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 165, 170, 180, 190, 200]
+par values: [70, 80, 90, 100]
+percent to float: 0.2
+stocks to float: null
+floating structures: []
+bank pool: 0.5
+loan value: null
+max loans: null
+player loan type: PlayerLoanType.None
+player fixed loan liability: null
+player max fixed loans: null
+payout: PayoutOption.Full
+disable: []
+corporate structures:
+	 id: '0'
+	 name: 'Public'
+	 order: '0'
+	 primary stock: '0.2'
+	 common stock: '0.1'
+	 min ownership: 'null'
+	 max ownership: '1.0'
+	 max ownership all: '1.0'
+	 share/stock ratio: '1.0'
+	 max stock price: 'null'
+	 max bank pool: '0.5'
+	 percent to float: '0.2'
+	 stocks to float: 'null'
+
+	 full cap: 'null'
+	 par values: 'null'
+	 short limit: 'null'
+	 option price: 'null'
+companies:
+	 name: 'Jingha Railway'
+	 short name: 'JHA'
+	 color: Color(alpha: 1.0000, red: 0.7294, green: 0.3804, blue: 0.1569, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Jinghu Railway'
+	 short name: 'JHU'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.0000, blue: 0.0000, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Jingguang Railway'
+	 short name: 'JGG'
+	 color: Color(alpha: 1.0000, red: 0.3255, green: 0.2510, blue: 0.4549, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Jinglan Railway'
+	 short name: 'JLR'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.5412, blue: 0.5451, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Binzhou Railway'
+	 short name: 'BZU'
+	 color: Color(alpha: 1.0000, red: 0.6157, green: 0.5137, blue: 0.3490, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Longhai Railway'
+	 short name: 'LHR'
+	 color: Color(alpha: 1.0000, red: 0.0000, green: 0.2588, blue: 0.5804, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Schichang Railway'
+	 short name: 'SCR'
+	 color: Color(alpha: 1.0000, red: 0.1569, green: 0.1843, blue: 0.1020, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Chengkun Railway'
+	 short name: 'CKR'
+	 color: Color(alpha: 1.0000, red: 0.3137, green: 0.4941, blue: 0.6824, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Baocheng Railway'
+	 short name: 'BCR'
+	 color: Color(alpha: 1.0000, red: 0.5804, green: 0.0706, blue: 0.1137, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Ningxi Railway'
+	 short name: 'NXR'
+	 color: Color(alpha: 1.0000, red: 0.6588, green: 0.2314, blue: 0.3569, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Hukun Railway'
+	 short name: 'HKR'
+	 color: Color(alpha: 1.0000, red: 0.2510, green: 0.4549, blue: 0.2275, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Nanjiang Railway'
+	 short name: 'NJR'
+	 color: Color(alpha: 1.0000, red: 0.2706, green: 0.1451, blue: 0.0941, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Qinshen Railway'
+	 short name: 'QSR'
+	 color: Color(alpha: 1.0000, red: 0.7020, green: 0.5765, blue: 0.1725, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+	 name: 'Wunan Railway'
+	 short name: 'WNR'
+	 color: Color(alpha: 1.0000, red: 0.6431, green: 0.2235, blue: 0.1216, colorSpace: ColorSpace.sRGB)
+	 additional ownership: []
+	 corporate structures: []
+
+route bonuses:
+revenue bonuses:
+stock jumps:
+trains:
+	 name: '2'
+	 cost: 100
+	 order: 1
+
+	 name: '2+2'
+	 cost: 180
+	 order: 2
+
+	 name: '3'
+	 cost: 180
+	 order: 3
+
+	 name: '3+3'
+	 cost: 300
+	 order: 4
+
+	 name: '4'
+	 cost: 300
+	 order: 5
+
+	 name: '4+4'
+	 cost: 450
+	 order: 6
+
+	 name: '6'
+	 cost: 600
+	 order: 7
+
+	 name: '6E'
+	 cost: 700
+	 order: 8
+
+	 name: '8'
+	 cost: 800
+	 order: 9
+
+	 name: '8E'
+	 cost: 900
+	 order: 10
+
+	 name: '10'
+	 cost: 1000
+	 order: 11
+
+assets:
+	 name: 'Woosong Railway'
+	 short name: 'P0'
+	 worth: 5
+
+	 name: 'Kaiping Railway'
+	 short name: 'P1'
+	 worth: 10
+
+	 name: 'Yanda Ferry Company'
+	 short name: 'P2'
+	 worth: 25
+
+	 name: 'Taiwan Western Line'
+	 short name: 'P3'
+	 worth: 45
+
+	 name: 'Chinese Rivers Ferry Companies'
+	 short name: 'P4'
+	 worth: 70
+
+	 name: 'Jeme Tien Yow Engineer Office'
+	 short name: 'P5'
+	 worth: 100
+
+	 name: 'Imperial Qing Government'
+	 short name: 'P6'
+	 worth: 160
+
+	 name: 'Rocket of China'
+	 short name: 'P7'
+	 worth: 50
+
+asset classes:
